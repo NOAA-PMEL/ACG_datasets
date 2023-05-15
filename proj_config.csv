@@ -1,0 +1,145 @@
+project_id,parameter,value
+
+ATOMIC,project,ATOMIC
+ATOMIC,project_description,Say something about atomic
+ATOMIC,project_url,
+ATOMIC,platform,RHBrown
+ATOMIC,trajectory_id,ATOMIC_RHBrown
+
+NAAMES4,project,NAAMES-4
+NAAMES4,project_description,Say something about NAAMES-4
+NAAMES4,project_url,
+NAAMES4,platform,Atlantis
+NAAMES4,trajectory_id,NAAMES-4_Atlantis
+
+NAAMES3,project,NAAMES-3
+NAAMES3,project_description,Say something about NAAMES-3
+NAAMES3,project_url,
+NAAMES3,platform,Atlantis
+NAAMES3,trajectory_id,NAAMES-3_Atlantis
+
+NAAMES2,project,NAAMES-2
+NAAMES2,project_description,Say something about NAAMES-2
+NAAMES2,project_url,
+NAAMES2,platform,Atlantis
+NAAMES2,trajectory_id,NAAMES-2_Atlantis
+
+NAAMES1,project,NAAMES-1
+NAAMES1,project_description,Say something about NAAMES-1
+NAAMES1,project_url,
+NAAMES1,platform,Atlantis
+NAAMES1,trajectory_id,NAAMES-1_Atlantis
+
+WACS2014,project,WACS-2
+WACS2014,project_description,Say something about WACS-2
+WACS2014,project_url,
+WACS2014,platform,Knorr
+WACS2014,trajectory_id,WACS-2_Knorr
+
+WACS2012,project,WACS
+WACS2012,project_description,Say something about WACS
+WACS2012,project_url,
+WACS2012,platform,RHBrown
+WACS2012,trajectory_id,WACS_RHBrown
+
+DYNAMO,project,DYNAMO
+DYNAMO,project_description,Say something about DYNAMO
+DYNAMO,project_url,
+DYNAMO,platform,Revelle
+DYNAMO,trajectory_id,DYNAMO_Revelle
+
+CALNEX,project,CalNex
+CALNEX,project_description,Say something about calnex
+CALNEX,project_url,
+CALNEX,platform,Atlantis
+CALNEX,trajectory_id,CalNex_Atlantis
+
+VOCALS,project,VOCALS
+VOCALS,project_description,Say something about vocals
+VOCALS,project_url,
+VOCALS,platform,RHBrown
+VOCALS,trajectory_id,VOCALS_RHBrown
+
+ICEALOT,project,ICEALOT
+ICEALOT,project_description,Say something about icealot
+ICEALOT,project_url,
+ICEALOT,platform,Knorr
+ICEALOT,trajectory_id,ICEALOT_Knorr
+
+TEXAQS2006,project,TexAQS-GoMACCS
+TEXAQS2006,project_description,Say something about texaqs
+TEXAQS2006,project_url,
+TEXAQS2006,platform,RHBrown
+TEXAQS2006,trajectory_id,TexAQS-GoMACCS_RHBrown
+
+NEAQS2004,project,NEAQS-2004
+NEAQS2004,project_description,Say something about neaqs2004
+NEAQS2004,project_url,
+NEAQS2004,platform,RHBrown
+NEAQS2004,trajectory_id,NEAQS-2004_RHBrown
+
+NEAQS2002,project,NEAQS-2002
+NEAQS2002,project_description,Say something about neaqs2002
+NEAQS2002,project_url,
+NEAQS2002,platform,RHBrown
+NEAQS2002,trajectory_id,NEAQS-2002_RHBrown
+
+ACEASIA,project,ACEASIA
+ACEASIA,project_description,Say something about aceasia
+ACEASIA,project_url,
+ACEASIA,platform,RHBrown
+ACEASIA,trajectory_id,ACEASIA_RHBrown
+
+NAURU99,project,NAURU-99
+NAURU99,project_description,Say something about nauru99
+NAURU99,project_url,
+NAURU99,platform,RHBrown
+NAURU99,trajectory_id,NAURU-99_RHBrown
+
+AEROINDO99,project,AEROSOLS99-INDOEX
+AEROINDO99,project_description,Say something about nauru99
+AEROINDO99,project_url,
+AEROINDO99,platform,RHBrown
+AEROINDO99,trajectory_id,AEROSOLS99-INDOEX_RHBrown
+
+ACE2,project,ACE-2
+ACE2,project_description,Say something about ace2
+ACE2,project_url,
+ACE2,platform,Vodyanitskiy
+ACE2,trajectory_id,ACE-2_Vodyanitskiy
+
+CSP,project,CSP
+CSP,project_description,Say something about csp
+CSP,project_url,
+CSP,platform,Discoverer
+CSP,trajectory_id,CSP_Discoverer
+
+ACE1,project,ACE-1
+ACE1,project_description,Say something about ace1
+ACE1,project_url,
+ACE1,platform,Discoverer
+ACE1,trajectory_id,ACE-1_Discoverer
+
+RITS94,project,RITS-94
+RITS94,project_description,Say something about rits94
+RITS94,project_url,
+RITS94,platform,Surveyor
+RITS94,trajectory_id,RITS-94_Surveyor
+
+RITS93,project,RITS-93
+RITS93,project_description,Say something about rits93
+RITS93,project_url,
+RITS93,platform,Surveyor
+RITS93,trajectory_id,RITS-93_Surveyor
+
+MAGE92,project,MAGE-92
+MAGE92,project_description,Say something about mage92
+MAGE92,project_url,
+MAGE92,platform,Vickers
+MAGE92,trajectory_id,MAGE-92_Vickers
+
+PSI3,project,PSI-3
+PSI3,project_description,Say something about psi3
+PSI3,project_url,
+PSI3,platform,Discoverer
+PSI3,trajectory_id,PSI-3_Discoverer

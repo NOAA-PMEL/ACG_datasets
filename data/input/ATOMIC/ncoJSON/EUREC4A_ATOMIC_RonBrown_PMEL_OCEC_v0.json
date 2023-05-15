@@ -1,0 +1,244 @@
+{
+  "attributes": {
+    "_NCProperties": {"type": "char", "data": "version=2,netcdf=4.7.4,hdf5=1.10.6"},
+    "cdm_data_type": {"type": "char", "data": "Trajectory"},
+    "cdm_trajectory_variables": {"type": "char", "data": "trajectory_id"},
+    "comment": {"type": "char", "data": "Sub-1.1 um and sub-10 um samples were collected on pre-combusted quartz fiber filters using 2 and 1 stage impactors, respectively, for organic carbon (OC) and elemental carbon (EC) analysis [Bates et al., 2004]. A charcoal diffusion denuder was deployed upstream of the submicrometer impactor to remove gas phase organic species. OC and EC concentrations were determined with a Sunset Laboratory thermal/optical analyzer. Three temperature steps were used to evolve OC under O2-free conditions for quantification. The first step heated the filter to 230 Deg C; the second step heated the filter to 600 Deg C (AMS vaporizer temperature); and the final step heated the filter to 870 Deg C. After cooling the sample down to 550 Deg C, a He/O2 mixture was introduced and the sample was heated in four temperature steps to 910 Deg C to drive off EC. The transmission of light through the filter was measured to correct the observed EC for any OC that charred during the initial stages of heating. No correction was made for carbonate carbon so OC includes both organic and carbonate carbon. The percentage of carbonate carbon is unknown. Super-micrometer OC concentrations were determined by difference between submicrometer and sub-10 um impactor samples without denuders."},
+    "contributor_name": {"type": "char", "data": "Coffman, Derek;Johnson, James;Quinn, Patricia;Bates, Tim;Upchurch, Lucia"},
+    "Conventions": {"type": "char", "data": "CF-1.6, COARDS, ACDD-1.3"},
+    "creator_email": {"type": "char", "data": "james.e.johnson@noaa.gov"},
+    "creator_name": {"type": "char", "data": "Johnson, James"},
+    "creator_url": {"type": "char", "data": "https://saga.pmel.noaa.gov"},
+    "date_created": {"type": "char", "data": "2020-11-30T17:21:04Z"},
+    "Easternmost_Easting": {"type": "double", "data": -50.9607},
+    "featureType": {"type": "char", "data": "Trajectory"},
+    "geospatial_lat_max": {"type": "double", "data": 15.748},
+    "geospatial_lat_min": {"type": "double", "data": 13.1416},
+    "geospatial_lat_units": {"type": "char", "data": "degrees_north"},
+    "geospatial_lon_max": {"type": "double", "data": -50.9607},
+    "geospatial_lon_min": {"type": "double", "data": -59.072},
+    "geospatial_lon_units": {"type": "char", "data": "degrees_east"},
+    "history": {"type": "char", "data": "file created by NOAA/PMEL/ACG\n2023-03-22T22:58:21Z (local files)\n2023-03-22T22:58:21Z https://data.pmel.noaa.gov/pmel/erddap/tabledap/EUREC4A_ATOMIC_RonBrown_PMEL_OCEC_v0.ncoJson"},
+    "infoUrl": {"type": "char", "data": "https://saga.pmel.noaa.gov"},
+    "institution": {"type": "char", "data": "NOAA PMEL Atmospheric Chemistry"},
+    "keywords": {"type": "char", "data": "1.1um, 10um, aerosol, air, atmospheric, atomic, carbon, chemistry, collected, color, concentration, data, dry, EC_sub1, elemental, environmental, identifier, impactor, laboratory, latitude, longitude, marine, mass, mass_concentration_of_primary_particulate_organic_matter_dry_aerosol_particles_in_air, matter, midpoint, noaa, number, OC_sub1, OC_super1, ocean, ocean color, ocec, organic, pacific, particles, particulate, period, pmel, primary, sample, sample_number, start, start_time, statistics, stop, stop_time, time, trajectory, trajectory_id"},
+    "keywords_vocabulary": {"type": "char", "data": "GCMD Science Keywords"},
+    "license": {"type": "char", "data": "The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, ERD, NOAA, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information."},
+    "Northernmost_Northing": {"type": "double", "data": 15.748},
+    "platform": {"type": "char", "data": "RHBrown"},
+    "product_version": {"type": "char", "data": "0"},
+    "project": {"type": "char", "data": "ATOMIC"},
+    "sourceUrl": {"type": "char", "data": "(local files)"},
+    "Southernmost_Northing": {"type": "double", "data": 13.1416},
+    "standard_name_vocabulary": {"type": "char", "data": "CF Standard Name Table v55"},
+    "subsetVariables": {"type": "char", "data": "trajectory_id"},
+    "summary": {"type": "char", "data": "ATOMIC (Atlantic Tradewind Ocean Atmosphere Mesoscale Interaction Campaign) 2020 Field campaign: Surface meteorological and ship navigation collected from the RV Ronald H. Brown by the National Oceanic and Atmospheric Administration (NOAA) Pacific Marine Environmental Laboratory (PMEL) Atmospheric Chemistry Group in the tropical North Atlantic ocean from 2020-01-09 to 2020-02-13"},
+    "time_coverage_end": {"type": "char", "data": "2020-02-09T17:38:00Z"},
+    "time_coverage_start": {"type": "char", "data": "2020-01-08T04:02:00Z"},
+    "title": {"type": "char", "data": "PMEL Atmospheric Chemistry ATOMIC Impactor collected OCEC"},
+    "Westernmost_Easting": {"type": "double", "data": -59.072},
+    "Westernnmost_Easting": {"type": "double", "data": -59.072}
+  },
+  "dimensions": {
+    "row": 27,
+    "trajectory_id_strlen": 19
+  },
+  "variables": {
+    "time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Time"},
+        "actual_range": {"type": "double", "data": [1.57845612E9, 1.58126988E9]},
+        "axis": {"type": "char", "data": "T"},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Midpoint Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57845612E9, 1.57851015E9, 1.57854987E9, 1.57861179E9, 1.57869807E9, 1.57878414E9, 1.57887066E9, 1.57895979E9, 1.57904607E9, 1.57913088E9,
+    1.57921965E9, 1.57930317E9, 1.57943208E9, 1.57951569E9, 1.57960224E9, 1.57968522E9, 1.57979607E9, 1.5799362E9, 1.58030091E9, 1.58038071E9,
+    1.58046969E9, 1.5805536E9, 1.5806406E9, 1.58072226E9, 1.58106804E9, 1.58115885E9, 1.58126988E9]
+    },
+    "trajectory_id": {
+      "shape": ["row", "trajectory_id_strlen"],
+      "type": "char",
+      "attributes": {
+        "cf_role": {"type": "char", "data": "trajectory_id"},
+        "ioos_category": {"type": "char", "data": "Identifier"},
+        "long_name": {"type": "char", "data": "trajectory id"}
+      },
+      "data": [["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"],
+    ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"],
+    ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"]]
+    },
+    "latitude": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Lat"},
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [13.1416, 15.748]},
+        "axis": {"type": "char", "data": "Y"},
+        "colorBarMaximum": {"type": "double", "data": 90.0},
+        "colorBarMinimum": {"type": "double", "data": -90.0},
+        "comment": {"type": "char", "data": "In the one minute files the position is treated somewhat differently from all the other data. The position given is the ship's position at the start of the one minute 'averaging' period. All other data are a true average. The PMEL GPS was the primary source. The Ship's GPS was used when there were missing data in the PMEL record."},
+        "epic_code": {"type": "char", "data": "500"},
+        "instrument": {"type": "char", "data": "GPS"},
+        "ioos_category": {"type": "char", "data": "Location"},
+        "long_name": {"type": "char", "data": "Latitude"},
+        "standard_name": {"type": "char", "data": "latitude"},
+        "units": {"type": "char", "data": "degrees_north"},
+        "valid_max": {"type": "double", "data": 90.0},
+        "valid_min": {"type": "double", "data": -90.0}
+      },
+      "data": [13.3258, 13.7643, 14.1582, 14.7182, 15.1534, 15.4627, 14.7387, 15.748, 15.4851, 14.8082,
+    14.8414, 14.8471, 14.3509, 14.3506, 14.3635, 14.6179, 14.3776, 13.1416, 13.4895, 13.9427,
+    13.901, 13.9002, 13.9006, 13.9004, 13.4674, 14.0509, 13.8527]
+    },
+    "longitude": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Lon"},
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [-59.072, -50.9607]},
+        "axis": {"type": "char", "data": "X"},
+        "colorBarMaximum": {"type": "double", "data": 180.0},
+        "colorBarMinimum": {"type": "double", "data": -180.0},
+        "comment": {"type": "char", "data": "In the one minute files the position is treated somewhat differently from all the other data. The position given is the ship's position at the start of the one minute 'averaging' period. All other data are a true average. The PMEL GPS was the primary source. The Ship's GPS was used when there were missing data in the PMEL record."},
+        "epic_code": {"type": "char", "data": "502"},
+        "ioos_category": {"type": "char", "data": "Location"},
+        "long_name": {"type": "char", "data": "Longitude"},
+        "standard_name": {"type": "char", "data": "longitude"},
+        "units": {"type": "char", "data": "degrees_east"},
+        "valid_max": {"type": "double", "data": 180.0},
+        "valid_min": {"type": "double", "data": -180.0}
+      },
+      "data": [-57.8479, -55.7203, -53.8081, -51.2408, -51.2592, -51.5369, -50.9842, -51.355, -51.4077, -50.9607,
+    -51.0207, -51.014, -53.0029, -53.0047, -53.0253, -52.8674, -55.0029, -59.072, -57.1829, -54.4926,
+    -54.4994, -54.5005, -54.4999, -54.5003, -56.7338, -54.2625, -54.8625]
+    },
+    "OC_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.19, 1.64]},
+        "colorBarMaximum": {"type": "double", "data": 2.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "epic_code": {"type": "char", "data": "1959"},
+        "instrument": {"type": "char", "data": "Impactor Dp < 1um (13); Impactor Dp < 1um +denduder (14); Sunset Laboratory thermal/optical analyzer (sn: )"},
+        "ioos_category": {"type": "char", "data": "Ocean Color"},
+        "long_name": {"type": "char", "data": "Organic Carbon Concentration in Dp < 1.1um particles in air"},
+        "lower_limit_of_detection": {"type": "char", "data": "0.1 to 0.8 ug/m3"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "standard_name": {"type": "char", "data": "mass_concentration_of_primary_particulate_organic_matter_dry_aerosol_particles_in_air"},
+        "uncertainty": {"type": "char", "data": "+/- 13%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [1.64, 1.02, 0.85, 0.5, 0.39, 0.34, 0.29, 0.41, 0.54, 0.19,
+    0.35, 0.26, 0.2, 0.21, 0.32, 0.33, 0.69, 0.54, 0.63, 0.7,
+    0.83, 0.58, 0.55, 0.57, 0.29, 0.61, 0.91]
+    },
+    "OC_super1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 1.3]},
+        "epic_code": {"type": "char", "data": "1960"},
+        "instrument": {"type": "char", "data": "Impactor Dp < 1um (13); Impactor Dp < 1um +denduder (14); Impactor Dp<10um (10) Sunset Laboratory thermal/optical analyzer (sn: )"},
+        "ioos_category": {"type": "char", "data": "Ocean Color"},
+        "long_name": {"type": "char", "data": "Organic Carbon Concentration in 1.1um < Dp < 10um particles in air"},
+        "lower_limit_of_detection": {"type": "char", "data": "0.1 to 0.8 ug/m3"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "standard_name": {"type": "char", "data": "mass_concentration_of_primary_particulate_organic_matter_dry_aerosol_particles_in_air"},
+        "uncertainty": {"type": "char", "data": "+/- 13%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [1.3, 0.52, 0.5, 0.1, 0.34, 0.0, 0.47, 0.21, 0.14, 0.04,
+    0.11, 0.0, 0.04, 0.0, 0.05, 0.21, 0.23, 0.07, 0.0, 0.43,
+    0.32, 0.0, 0.72, 0.0, 0.01, 0.2, 0.03]
+    },
+    "EC_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 0.61]},
+        "epic_code": {"type": "char", "data": "1962"},
+        "instrument": {"type": "char", "data": "Impactor Dp < 1um (13); Impactor Dp < 1um +denduder (14); Sunset Laboratory thermal/optical analyzer (sn: )"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Elemental Carbon Concentration in Dp < 1.1um particles in air"},
+        "lower_limit_of_detection": {"type": "char", "data": "0.015 to 0.12 ug/m3"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 9%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.19, 0.43, 0.15, 0.1, 0.0, 0.03, 0.01, 0.0, 0.01, 0.0,
+    0.0, 0.02, 0.05, 0.01, 0.0, 0.0, 0.0, 0.02, 0.3, 0.61,
+    0.56, 0.54, 0.61, 0.61, 0.05, 0.03, 0.46]
+    },
+    "start_time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "actual_range": {"type": "double", "data": [1.57843452E9, 1.581204E9]},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Start Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57843452E9, 1.57849176E9, 1.578534E9, 1.57857168E9, 1.57865772E9, 1.5787434E9, 1.57883004E9, 1.57892166E9, 1.57900782E9, 1.579092E9,
+    1.5791817E9, 1.5792633E9, 1.5793929E9, 1.57947468E9, 1.5795609E9, 1.57964724E9, 1.5797754E9, 1.57989E9, 1.58026662E9, 1.5803418E9,
+    1.58043138E9, 1.5805125E9, 1.5806001E9, 1.58068782E9, 1.58102334E9, 1.58111838E9, 1.581204E9]
+    },
+    "stop_time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "actual_range": {"type": "double", "data": [1.57847772E9, 1.58133576E9]},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Stop Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57847772E9, 1.57852854E9, 1.57856574E9, 1.5786519E9, 1.57873842E9, 1.57882488E9, 1.57891128E9, 1.57899792E9, 1.57908432E9, 1.57916976E9,
+    1.5792576E9, 1.57934304E9, 1.57947126E9, 1.5795567E9, 1.57964358E9, 1.5797232E9, 1.57981674E9, 1.5799824E9, 1.5803352E9, 1.58041962E9,
+    1.580508E9, 1.5805947E9, 1.5806811E9, 1.5807567E9, 1.58111274E9, 1.58119932E9, 1.58133576E9]
+    },
+    "sample_number": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [1.0, 27.0]},
+        "colorBarMaximum": {"type": "double", "data": 100.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "ioos_category": {"type": "char", "data": "Statistics"},
+        "long_name": {"type": "char", "data": "Sample Number"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "units": {"type": "char", "data": "1"}
+      },
+      "data": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0,
+    11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0,
+    21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0]
+    }
+  }
+}

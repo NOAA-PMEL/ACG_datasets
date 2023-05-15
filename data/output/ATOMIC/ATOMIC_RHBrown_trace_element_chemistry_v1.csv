@@ -1,0 +1,186 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.0"
+*GLOBAL*,cdm_data_type,"Trajectory"
+*GLOBAL*,cdm_trajectory_variables,"trajectory_id"
+*GLOBAL*,comment,"Aerosol Trace Elements Data\nConcentrations of Al, Si, Ca, Ti, and Fe were determined by thin-film x-ray primary and secondary emission spectrometry [Feely et al., 1991; Feely et al., 1998].  The analysis was conducted by Chester LabNet in Tigard, OR.  Submicron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 1.1 um jet plate (Berner et al., 1979).  Sub 10 micron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 10 um jet plate. This method of sample collection allows for the sharp size cut of the impactor while collecting a thin film of aerosol necessary for the x-ray analysis.  Sampling periods ranged from 12 to 24 hours.  The reported Ca does not include sea salt Ca (as determined from soluble Na concentrations and the ratio of Ca to Na in seawater).  Blank levels were determined by loading an impactor or filter pack with a filter but not drawing any air through it.\n\nConcentrations are reported as ug/m3 at STP (25C and 1 atm).\n\nThe mass concentrations of Al, Si, Ca, Fe, and Ti, the major elements in soil, were combined to calculate the concentration of dust. It was assumed that each element was present in the aerosol in its most common oxide form (Al2O3, SiO2, CaO, K2O, FeO, Fe2O3, TiO2). The measured elemental mass concentration was multiplied by the appropriate molar correction factor as follows:\n\n[Dust] = 2.2[Al] + 2.49[Si] + 1.63[Ca] + 2.42[Fe]+1.94[Ti]\n\n[Malm et al., 1994; Perry et al., 1997]. This equation includes a 16% correction factor to account for the presence of oxides of other elements such as K, Na, Mn, Mg, and V that are not included in the linear combination. In addition, the equation omits K from biomass burning by using Fe as a surrogate for soil K and an average K/Fe ratio of 0.6 in soil [Cahill et al., 1986].\n\nBerner et al., Sci. Total Environ., 13,  245 - 261, 1979.\nCahill, T.A., R.A. Eldred, and P.J. Feeney, Particulate monitoring and data analysis for the National Park Service, 1982 \u2013 1985, University of California, Davis, 1986.\nFeely et al., Geophys. Monogr. Ser., vol. 63, AGU, Washington, DC, 251 - 257, 1991.\nFeely et al., Deep Sea Res., 45, 2637 - 2664, 1998.\nMalm, W.C., J.F. Sisler, D. Huffman, R.A. Eldred, and T.A. Cahill, Spatial and seasonal trends in particle concentration and optical extinction in the United States, J. Geophys. Res., 99, 1347-1370, 1994.\nPerry, K.D., T.A. Cahill, R.A. Eldred, D.D. Dutcher, and T.E. Gill, Long-range transport of North African dust to the eastern United States, J. Geophys. Res., 102, 11225- 11238, 1997.\n\nX-Ray Fluorescence  (analyzed by CHESTER LabNet, Tigard, OR)\nSub-1.1 um and sub-10 um samples were collected on Pall PTFE Membrane Disc Filters (2 um, 47 mm) using 2 and 1 stage impactors. Filters were analyzed for total mass  by gravimetric analysis at 55 +/- 5% RH. After gravimetric analysis, a subset of filters were sent to CHESTER LabNet for XRF analysis. The following elements were reported:, Al, Si, Ca, Fe, and Ti. The XRF uncertainty measurement (as derived from calibration, counting statistics, peak overlap correction, and absorption) represents the statistical range in which a measurement may fall. More detail on XRF Data interpretation can be found here. Blank levels were determined by loading an impactor with substrates but not drawing any air through it. Concentrations are reported as ug/m3 at STP (25C and 1 atm). Values below the detection limit are denoted with a zero and missing data are denoted with a NaN."
+*GLOBAL*,contributor_name,"Quinn, Patricia/NOAA-PMEL/Phone: 206-526-6892 /Address: 7600 Sand Pt. Wy. NE,Seattle,WA 98115 /email: Patricia.K.Quinn@noaa.gov"
+*GLOBAL*,creator_name,"Johnson, James"
+*GLOBAL*,creator_email,"james.e.johnson@noaa.gov"
+*GLOBAL*,creator_url,""
+*GLOBAL*,history,""
+*GLOBAL*,platform,"RHBrown"
+*GLOBAL*,product_version,"1"
+*GLOBAL*,project,"ATOMIC"
+*GLOBAL*,sourceUrl,""
+*GLOBAL*,title,"PMEL Atmospheric Chemistry ATOMIC trace_element_chemistry data"
+*GLOBAL*,featureType,"Trajectory"
+*GLOBAL*,target_sample_rh,"55-60%"
+*GLOBAL*,infoUrl,"https://saga.pmel.noaa.gov/data/index.html"
+time,*DATA_TYPE*,string
+time,_CoordinateAxisType,"Time"
+time,axis,"T"
+time,ioos_category,"Time"
+time,long_name,"Datetime UTC"
+time,standard_name,"time"
+time,source_name,"datetime_utc"
+time,time_origin,"01/01/1970 00:00"
+time,time_precision,"1970-01-01T00:00:00Z"
+time,units,"yyyy-MM-ddTHH:MM:ssZ"
+trajectory_id,*DATA_TYPE*,string
+trajectory_id,cf_role,"trajectory_id"
+trajectory_id,ioos_category,"Identifier"
+trajectory_id,long_name,"Trajectory ID"
+duration,*DATA_TYPE*,int
+duration,long_name,"Duration"
+duration,units,"second"
+latitude,*DATA_TYPE*,double
+latitude,long_name,"Latitude"
+latitude,units,"degrees_north"
+latitude,instrument,"GPS"
+latitude,source,"surface observation"
+latitude,valid_min,-90.0
+latitude,valid_max,90.0
+latitude,uncertainty,""
+latitude,standard_name,"latitude"
+latitude,history,""
+latitude,comment,""
+latitude,description,""
+latitude,_CoordinateAxisType,"Lat"
+latitude,axis,"Y"
+latitude,ioos_category,"Location"
+longitude,*DATA_TYPE*,double
+longitude,long_name,"Longitude"
+longitude,units,"degrees_east"
+longitude,instrument,"GPS"
+longitude,source,"surface observation"
+longitude,valid_min,-180.0
+longitude,valid_max,180.0
+longitude,uncertainty,""
+longitude,standard_name,"longitude"
+longitude,history,""
+longitude,comment,""
+longitude,description,""
+longitude,_CoordinateAxisType,"Lon"
+longitude,axis,"X"
+longitude,ioos_category,"Location"
+altitude,*DATA_TYPE*,double
+altitude,long_name,"height above mean sea level"
+altitude,units,"m"
+altitude,instrument,""
+altitude,source,""
+altitude,valid_min,0
+altitude,valid_max,None
+altitude,uncertainty,""
+altitude,standard_name,"altitude"
+altitude,history,""
+altitude,comment,""
+altitude,description,""
+mid_time,*DATA_TYPE*,string
+mid_time,_CoordinateAxisType,"Time"
+mid_time,axis,"T"
+mid_time,ioos_category,"Time"
+mid_time,long_name,"midpoint Datetime UTC"
+mid_time,standard_name,"time"
+mid_time,source_name,"datetime_utc"
+mid_time,time_origin,"01/01/1970 00:00"
+mid_time,time_precision,"1970-01-01T00:00:00Z"
+mid_time,units,"yyyy-MM-ddTHH:MM:ssZ"
+end_time,*DATA_TYPE*,string
+end_time,_CoordinateAxisType,"Time"
+end_time,axis,"T"
+end_time,ioos_category,"Time"
+end_time,long_name,"endpoint Datetime UTC"
+end_time,standard_name,"time"
+end_time,source_name,"datetime_utc"
+end_time,time_origin,"01/01/1970 00:00"
+end_time,time_precision,"1970-01-01T00:00:00Z"
+end_time,units,"yyyy-MM-ddTHH:MM:ssZ"
+XRF_Al_sub1,*DATA_TYPE*,double
+XRF_Al_sub1,long_name,"Particulate Al Concentration for Dp < 1.1 um, ug m-3"
+XRF_Al_sub1,units,"micrograms m-3"
+XRF_Al_sub1,instrument,"Impactor with 50% aerodynamic cutoff diameter of 1.1 um -- x-ray emission spectrometry"
+XRF_Al_sub1,source,"surface observation"
+XRF_Al_sub1,valid_min,0.0
+XRF_Al_sub1,valid_max,100.0
+XRF_Al_sub1,uncertainty,""
+XRF_Al_sub1,standard_name,""
+XRF_Al_sub1,history,""
+XRF_Al_sub1,comment,""
+XRF_Al_sub1,description,""
+XRF_Si_sub1,*DATA_TYPE*,double
+XRF_Si_sub1,long_name,"Particulate Si Concentration for Dp < 1.1 um, ug m-3"
+XRF_Si_sub1,units,"micrograms m-3"
+XRF_Si_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Si_sub1,source,"surface observation"
+XRF_Si_sub1,valid_min,0.0
+XRF_Si_sub1,valid_max,100.0
+XRF_Si_sub1,uncertainty,""
+XRF_Si_sub1,standard_name,""
+XRF_Si_sub1,history,""
+XRF_Si_sub1,comment,""
+XRF_Si_sub1,description,""
+XRF_Ca_sub1,*DATA_TYPE*,double
+XRF_Ca_sub1,long_name,"Particulate Ca Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ca_sub1,units,"micrograms m-3"
+XRF_Ca_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Ca_sub1,source,"surface observation"
+XRF_Ca_sub1,valid_min,0.0
+XRF_Ca_sub1,valid_max,100.0
+XRF_Ca_sub1,uncertainty,""
+XRF_Ca_sub1,standard_name,""
+XRF_Ca_sub1,history,""
+XRF_Ca_sub1,comment,""
+XRF_Ca_sub1,description,""
+XRF_Ti_sub1,*DATA_TYPE*,double
+XRF_Ti_sub1,long_name,"Particulate Ti Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ti_sub1,units,"micrograms m-3"
+XRF_Ti_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Ti_sub1,source,"surface observation"
+XRF_Ti_sub1,valid_min,0.0
+XRF_Ti_sub1,valid_max,100.0
+XRF_Ti_sub1,uncertainty,""
+XRF_Ti_sub1,standard_name,""
+XRF_Ti_sub1,history,""
+XRF_Ti_sub1,comment,""
+XRF_Ti_sub1,description,""
+XRF_Fe_sub1,*DATA_TYPE*,double
+XRF_Fe_sub1,long_name,"Particulate Fe Concentration for Dp < 1.1 um, ug m-3"
+XRF_Fe_sub1,units,"micrograms m-3"
+XRF_Fe_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Fe_sub1,source,"surface observation"
+XRF_Fe_sub1,valid_min,0.0
+XRF_Fe_sub1,valid_max,100.0
+XRF_Fe_sub1,uncertainty,""
+XRF_Fe_sub1,standard_name,""
+XRF_Fe_sub1,history,""
+XRF_Fe_sub1,comment,""
+XRF_Fe_sub1,description,""
+*END_METADATA*
+time,trajectory_id,duration,latitude,longitude,altitude,mid_time,end_time,XRF_Al_sub1,XRF_Si_sub1,XRF_Ca_sub1,XRF_Ti_sub1,XRF_Fe_sub1
+2020-01-07T22:02:00Z,ATOMIC_RHBrown,43200.0,13.3258,-57.8479,18.0,2020-01-08T04:02:00Z,2020-01-08T10:02:00Z,0.276,0.58,0.049,0.017,0.158
+2020-01-08T13:56:00Z,ATOMIC_RHBrown,36780.0,13.7646,-55.7187,18.0,2020-01-08T19:02:30Z,2020-01-09T00:09:00Z,1.47,2.88,0.2228,0.097,0.8315
+2020-01-09T01:40:00Z,ATOMIC_RHBrown,31740.0,14.1585,-53.8068,18.0,2020-01-09T06:04:30Z,2020-01-09T10:29:00Z,0.013,0.036,0.011,0.0007,0.02
+2020-01-09T12:08:00Z,ATOMIC_RHBrown,80220.0,14.7188,-51.2397,18.0,2020-01-09T23:16:30Z,2020-01-10T10:25:00Z,0.0,0.005,0.0066,0.0001,0.005
+2020-01-10T12:02:00Z,ATOMIC_RHBrown,80700.0,15.1547,-51.2602,18.0,2020-01-10T23:14:30Z,2020-01-11T10:27:00Z,0.0,0.0027,0.0036,0.0,0.0008
+2020-01-11T11:50:00Z,ATOMIC_RHBrown,81480.0,15.4627,-51.5369,18.0,2020-01-11T23:09:00Z,2020-01-12T10:28:00Z,0.0,0.0086,0.005,0.0002,0.0073
+2020-01-12T11:54:00Z,ATOMIC_RHBrown,81240.0,14.7387,-50.9842,18.0,2020-01-12T23:11:00Z,2020-01-13T10:28:00Z,0.0,0.0051,0.007,0.0008,0.0042
+2020-01-13T13:21:00Z,ATOMIC_RHBrown,76260.0,15.7467,-51.3551,18.0,2020-01-13T23:56:30Z,2020-01-14T10:32:00Z,0.0,0.0011,0.0054,0.0,0.0
+2020-01-14T13:17:00Z,ATOMIC_RHBrown,76500.0,15.4851,-51.4072,18.0,2020-01-14T23:54:30Z,2020-01-15T10:32:00Z,0.002,0.0021,0.0054,0.0,0.0
+2020-01-15T12:40:00Z,ATOMIC_RHBrown,77760.0,14.8082,-50.9607,18.0,2020-01-15T23:28:00Z,2020-01-16T10:16:00Z,0.0,0.0017,0.0033,0.0,0.0049
+2020-01-16T13:35:00Z,ATOMIC_RHBrown,75900.0,14.8414,-51.0207,18.0,2020-01-17T00:07:30Z,2020-01-17T10:40:00Z,0.0,0.0,0.0,0.0,0.0
+2020-01-17T12:15:00Z,ATOMIC_RHBrown,79740.0,14.8471,-51.014,18.0,2020-01-17T23:19:30Z,2020-01-18T10:24:00Z,0.0,0.0035,0.0029,0.0,0.0013
+2020-01-19T00:15:00Z,ATOMIC_RHBrown,78360.0,14.3509,-53.0029,18.0,2020-01-19T11:08:00Z,2020-01-19T22:01:00Z,0.005,0.0183,0.0035,0.0002,0.004
+2020-01-19T22:58:00Z,ATOMIC_RHBrown,82020.0,14.3506,-53.0047,18.0,2020-01-20T10:21:30Z,2020-01-20T21:45:00Z,0.001,0.0142,0.0031,0.0002,0.0045
+2020-01-20T22:55:00Z,ATOMIC_RHBrown,82680.0,14.3635,-53.0253,18.0,2020-01-21T10:24:00Z,2020-01-21T21:53:00Z,0.0,0.0,0.0056,0.0,0.0029
+2020-01-21T22:54:00Z,ATOMIC_RHBrown,75960.0,14.6179,-52.8674,18.0,2020-01-22T09:27:00Z,2020-01-22T20:00:00Z,0.0,0.002,0.0,0.0,0.0008
+2020-01-23T10:30:00Z,ATOMIC_RHBrown,41340.0,14.3776,-55.0029,18.0,2020-01-23T16:14:30Z,2020-01-23T21:59:00Z,0.0,0.001,0.0,0.0,0.0003
+2020-01-24T18:20:00Z,ATOMIC_RHBrown,92400.0,13.1416,-59.072,18.0,2020-01-25T07:10:00Z,2020-01-25T20:00:00Z,0.0,0.0013,0.0,0.0,0.0012
+2020-01-29T02:57:00Z,ATOMIC_RHBrown,68580.0,13.4898,-57.1814,18.0,2020-01-29T12:28:30Z,2020-01-29T22:00:00Z,0.2671,0.6056,0.0325,0.018,0.1432
+2020-01-29T23:50:00Z,ATOMIC_RHBrown,77820.0,13.9426,-54.4921,18.0,2020-01-30T10:38:30Z,2020-01-30T21:27:00Z,1.13,2.91,0.191,0.079,0.64
+2020-01-31T00:43:00Z,ATOMIC_RHBrown,76620.0,13.901,-54.4994,18.0,2020-01-31T11:21:30Z,2020-01-31T22:00:00Z,0.606,1.53,0.097,0.0415,0.3422
+2020-01-31T23:15:00Z,ATOMIC_RHBrown,82200.0,13.9002,-54.5005,18.0,2020-02-01T10:40:00Z,2020-02-01T22:05:00Z,0.69,1.72,0.095,0.047,0.386
+2020-02-01T23:35:00Z,ATOMIC_RHBrown,81000.0,13.9006,-54.4999,18.0,2020-02-02T10:50:00Z,2020-02-02T22:05:00Z,0.78,2.04,0.113,0.054,0.446
+2020-02-02T23:57:00Z,ATOMIC_RHBrown,68880.0,13.9004,-54.5003,18.0,2020-02-03T09:31:00Z,2020-02-03T19:05:00Z,0.7401,1.95,0.0998,0.0009,0.4133
+2020-02-06T21:09:00Z,ATOMIC_RHBrown,89400.0,13.4674,-56.7338,18.0,2020-02-07T09:34:00Z,2020-02-07T21:59:00Z,0.01,0.035,0.0081,0.0,0.008
+2020-02-07T23:33:00Z,ATOMIC_RHBrown,80940.0,14.0508,-54.2625,18.0,2020-02-08T10:47:30Z,2020-02-08T22:02:00Z,0.0,0.003,0.0046,0.019,0.0015
+2020-02-08T23:20:00Z,ATOMIC_RHBrown,131760.0,13.8527,-54.8625,18.0,2020-02-09T17:38:00Z,2020-02-10T11:56:00Z,0.258,0.597,0.035,0.0187,0.15
+*END_DATA*

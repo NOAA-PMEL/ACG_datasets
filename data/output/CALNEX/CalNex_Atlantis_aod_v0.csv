@@ -1,0 +1,216 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.0"
+*GLOBAL*,cdm_data_type,"Trajectory"
+*GLOBAL*,cdm_trajectory_variables,"trajectory_id"
+*GLOBAL*,comment,"Aerosol Optical Depth (AOD)\nA handheld Microtops sunphotometer (Solar Light Co.) was used for the measurement of AOD at wavelengths of 380, 440, 500, 675, and 870 nm.  Details about the data processing can be found at:\n\nhttps://aeronet.gsfc.nasa.gov/new_web/man_data.html"
+*GLOBAL*,contributor_name,"Quinn, Patricia/NOAA-PMEL/Phone: 206-526-6892 /Address: 7600 Sand Pt. Wy. NE,Seattle,WA 98115 /email: Patricia.K.Quinn@noaa.gov"
+*GLOBAL*,creator_name,"Johnson, James"
+*GLOBAL*,creator_email,"james.e.johnson@noaa.gov"
+*GLOBAL*,creator_url,""
+*GLOBAL*,history,""
+*GLOBAL*,platform,"Atlantis"
+*GLOBAL*,product_version,"0"
+*GLOBAL*,project,"CalNex"
+*GLOBAL*,sourceUrl,""
+*GLOBAL*,title,"PMEL Atmospheric Chemistry CalNex aod data"
+*GLOBAL*,featureType,"Trajectory"
+*GLOBAL*,infoUrl,"https://saga.pmel.noaa.gov/data/index.html"
+time,*DATA_TYPE*,string
+time,_CoordinateAxisType,"Time"
+time,axis,"T"
+time,ioos_category,"Time"
+time,long_name,"Datetime UTC"
+time,standard_name,"time"
+time,source_name,"datetime_utc"
+time,time_origin,"01/01/1970 00:00"
+time,time_precision,"1970-01-01T00:00:00Z"
+time,units,"yyyy-MM-ddTHH:MM:ssZ"
+trajectory_id,*DATA_TYPE*,string
+trajectory_id,cf_role,"trajectory_id"
+trajectory_id,ioos_category,"Identifier"
+trajectory_id,long_name,"Trajectory ID"
+duration,*DATA_TYPE*,int
+duration,long_name,"Duration"
+duration,units,"second"
+latitude,*DATA_TYPE*,double
+latitude,long_name,"Latitude"
+latitude,units,"degrees_north"
+latitude,instrument,"GPS"
+latitude,source,"surface observation"
+latitude,valid_min,-90.0
+latitude,valid_max,90.0
+latitude,uncertainty,""
+latitude,standard_name,"latitude"
+latitude,history,""
+latitude,comment,""
+latitude,description,""
+latitude,_CoordinateAxisType,"Lat"
+latitude,axis,"Y"
+latitude,ioos_category,"Location"
+longitude,*DATA_TYPE*,double
+longitude,long_name,"Longitude"
+longitude,units,"degrees_east"
+longitude,instrument,"GPS"
+longitude,source,"surface observation"
+longitude,valid_min,-180.0
+longitude,valid_max,180.0
+longitude,uncertainty,""
+longitude,standard_name,"longitude"
+longitude,history,""
+longitude,comment,""
+longitude,description,""
+longitude,_CoordinateAxisType,"Lon"
+longitude,axis,"X"
+longitude,ioos_category,"Location"
+altitude,*DATA_TYPE*,double
+altitude,long_name,"height above mean sea level"
+altitude,units,"m"
+altitude,instrument,""
+altitude,source,""
+altitude,valid_min,0
+altitude,valid_max,None
+altitude,uncertainty,""
+altitude,standard_name,"altitude"
+altitude,history,""
+altitude,comment,""
+altitude,description,""
+aod_391,*DATA_TYPE*,double
+aod_391,long_name,"Aerosol Optical Depth at 391nm"
+aod_391,units,""
+aod_391,instrument,"Microtops sunphotometer"
+aod_391,source,"surface observation"
+aod_391,valid_min,0.0
+aod_391,valid_max,5.0
+aod_391,uncertainty,""
+aod_391,standard_name,"atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles"
+aod_391,history,""
+aod_391,comment,""
+aod_391,description,""
+aod_500,*DATA_TYPE*,double
+aod_500,long_name,"Aerosol Optical Depth at 500nm"
+aod_500,units,""
+aod_500,instrument,"Microtops sunphotometer"
+aod_500,source,"surface observation"
+aod_500,valid_min,0.0
+aod_500,valid_max,5.0
+aod_500,uncertainty,""
+aod_500,standard_name,"atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles"
+aod_500,history,""
+aod_500,comment,""
+aod_500,description,""
+air_mass,*DATA_TYPE*,double
+air_mass,long_name,"Integrated Air Density Along Solar Ray Path"
+air_mass,units,"atm"
+air_mass,instrument,"Microtops sunphotometer and GPS"
+air_mass,source,"surface observation"
+air_mass,valid_min,0.0
+air_mass,valid_max,90.0
+air_mass,uncertainty,""
+air_mass,standard_name,""
+air_mass,history,""
+air_mass,comment,""
+air_mass,description,""
+*END_METADATA*
+time,trajectory_id,duration,latitude,longitude,altitude,aod_391,aod_500,air_mass
+2010-05-20T19:00:00Z,CalNex_Atlantis,60.0,33.717,-118.2,18.0,0.115332,0.108956,1.047437
+2010-05-20T19:13:00Z,CalNex_Atlantis,60.0,33.717,-118.2,18.0,0.112461,0.107595,1.038852
+2010-05-20T21:59:00Z,CalNex_Atlantis,60.0,33.6,-118.05,18.0,0.105161,0.096677,1.177464
+2010-05-20T22:08:00Z,CalNex_Atlantis,60.0,33.583,-118.0,18.0,0.118748,0.108508,1.201511
+2010-05-20T22:25:00Z,CalNex_Atlantis,60.0,33.583,-117.95,18.0,0.125948,0.114373,1.255498
+2010-05-21T19:53:00Z,CalNex_Atlantis,60.0,34.017,-118.583,18.0,0.176432,0.16721,1.029058
+2010-05-21T21:27:00Z,CalNex_Atlantis,60.0,33.833,-118.65,18.0,0.141055,0.136354,1.105371
+2010-05-21T21:31:00Z,CalNex_Atlantis,60.0,33.833,-118.65,18.0,0.143305,0.136674,1.11164
+2010-05-21T21:34:00Z,CalNex_Atlantis,60.0,33.833,-118.65,18.0,0.13761,0.129114,1.117736
+2010-05-21T21:39:00Z,CalNex_Atlantis,60.0,33.783,-118.65,18.0,0.133556,0.124933,1.126648
+2010-05-21T22:21:00Z,CalNex_Atlantis,60.0,33.7,-118.683,18.0,0.122563,0.113477,1.231159
+2010-05-21T22:25:00Z,CalNex_Atlantis,60.0,33.7,-118.667,18.0,0.128268,0.120013,1.244557
+2010-05-21T22:29:00Z,CalNex_Atlantis,60.0,33.7,-118.65,18.0,0.12955,0.119412,1.25887
+2010-05-21T22:33:00Z,CalNex_Atlantis,60.0,33.7,-118.65,18.0,0.129292,0.120554,1.272117
+2010-05-21T22:41:00Z,CalNex_Atlantis,60.0,33.667,-118.633,18.0,0.121733,0.115058,1.303235
+2010-05-22T18:00:00Z,CalNex_Atlantis,60.0,33.75,-118.267,18.0,0.215508,0.199948,1.126881
+2010-05-22T20:29:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.175614,0.166436,1.039177
+2010-05-22T20:43:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.175606,0.161479,1.050258
+2010-05-22T21:29:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.162118,0.148706,1.109868
+2010-05-22T21:36:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.160304,0.148559,1.122381
+2010-05-22T21:59:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.133708,0.120677,1.174043
+2010-05-22T22:28:00Z,CalNex_Atlantis,60.0,33.748,-118.276,18.0,0.119305,0.107588,1.259368
+2010-05-23T17:47:00Z,CalNex_Atlantis,60.0,33.315,-118.285,18.0,0.096215,0.0885,1.151723
+2010-05-23T17:57:00Z,CalNex_Atlantis,60.0,33.315,-118.285,18.0,0.093254,0.083882,1.130524
+2010-05-23T18:05:00Z,CalNex_Atlantis,60.0,33.315,-118.285,18.0,0.096218,0.086562,1.115632
+2010-05-23T18:21:00Z,CalNex_Atlantis,60.0,33.315,-118.285,18.0,0.111565,0.101097,1.087702
+2010-05-23T20:09:00Z,CalNex_Atlantis,60.0,33.344,-118.27,18.0,0.1385,0.128149,1.027684
+2010-05-23T20:23:00Z,CalNex_Atlantis,60.0,33.374,-118.257,18.0,0.096659,0.084299,1.033391
+2010-05-23T22:40:00Z,CalNex_Atlantis,60.0,33.569,-118.184,18.0,0.124533,0.102428,1.30199
+2010-05-23T22:58:00Z,CalNex_Atlantis,60.0,33.569,-118.183,18.0,0.128201,0.105734,1.376517
+2010-05-24T19:25:00Z,CalNex_Atlantis,60.0,33.925,-118.593,18.0,0.15398,0.141396,1.031547
+2010-05-24T19:34:00Z,CalNex_Atlantis,60.0,33.925,-118.593,18.0,0.154972,0.139282,1.028352
+2010-05-24T20:07:00Z,CalNex_Atlantis,60.0,33.922,-118.583,18.0,0.162431,0.147692,1.028235
+2010-05-24T20:39:00Z,CalNex_Atlantis,60.0,33.919,-118.576,18.0,0.136473,0.121081,1.044676
+2010-05-24T20:57:00Z,CalNex_Atlantis,60.0,33.916,-118.569,18.0,0.152906,0.138139,1.060828
+2010-05-24T21:29:00Z,CalNex_Atlantis,60.0,33.875,-118.572,18.0,0.145279,0.128263,1.105027
+2010-05-24T22:00:00Z,CalNex_Atlantis,60.0,33.782,-118.574,18.0,0.139449,0.122772,1.168445
+2010-05-29T16:52:00Z,CalNex_Atlantis,60.0,33.956,-118.602,18.0,0.097963,0.082247,1.32529
+2010-05-29T17:13:00Z,CalNex_Atlantis,60.0,33.956,-118.602,18.0,0.113739,0.093964,1.248298
+2010-05-29T17:37:00Z,CalNex_Atlantis,60.0,34.019,-118.599,18.0,0.11956,0.099204,1.176837
+2010-05-29T17:52:00Z,CalNex_Atlantis,60.0,34.005,-118.564,18.0,0.122438,0.102174,1.141292
+2010-05-29T18:15:00Z,CalNex_Atlantis,60.0,33.981,-118.523,18.0,0.130729,0.107889,1.098041
+2010-05-29T19:54:00Z,CalNex_Atlantis,60.0,33.981,-118.523,18.0,0.089972,0.067666,1.023105
+2010-05-29T19:58:00Z,CalNex_Atlantis,60.0,33.981,-118.523,18.0,0.093683,0.066951,1.023375
+2010-05-29T20:16:00Z,CalNex_Atlantis,60.0,33.878,-118.426,18.0,0.098933,0.074681,1.027666
+2010-05-29T20:23:00Z,CalNex_Atlantis,60.0,33.878,-118.426,18.0,0.099881,0.076326,1.030794
+2010-05-29T20:31:00Z,CalNex_Atlantis,60.0,33.878,-118.426,18.0,0.103043,0.078523,1.035244
+2010-05-29T20:51:00Z,CalNex_Atlantis,60.0,33.932,-118.462,18.0,0.106826,0.07563,1.051385
+2010-05-29T20:56:00Z,CalNex_Atlantis,60.0,33.932,-118.462,18.0,0.102507,0.079788,1.05675
+2010-05-29T21:03:00Z,CalNex_Atlantis,60.0,33.932,-118.462,18.0,0.104879,0.079238,1.064624
+2010-05-29T21:25:00Z,CalNex_Atlantis,60.0,33.989,-118.502,18.0,0.093843,0.070943,1.095108
+2010-05-29T22:16:00Z,CalNex_Atlantis,60.0,34.02,-118.586,18.0,0.100915,0.078691,1.207111
+2010-05-29T22:28:00Z,CalNex_Atlantis,60.0,33.994,-118.517,18.0,0.102994,0.081816,1.244341
+2010-05-29T22:39:00Z,CalNex_Atlantis,60.0,33.994,-118.517,18.0,0.100514,0.079311,1.280116
+2010-05-30T18:09:00Z,CalNex_Atlantis,60.0,33.864,-118.697,18.0,0.127667,0.101291,1.109206
+2010-05-30T19:36:00Z,CalNex_Atlantis,60.0,33.948,-118.512,18.0,0.151781,0.123396,1.024172
+2010-05-30T19:43:00Z,CalNex_Atlantis,60.0,33.948,-118.512,18.0,0.164018,0.131903,1.022814
+2010-05-30T19:50:00Z,CalNex_Atlantis,60.0,33.979,-118.516,18.0,0.154803,0.120665,1.022488
+2010-05-30T19:57:00Z,CalNex_Atlantis,60.0,34.004,-118.536,18.0,0.15628,0.121652,1.022867
+2010-05-30T20:09:00Z,CalNex_Atlantis,60.0,34.021,-118.559,18.0,0.14846,0.116893,1.025051
+2010-05-30T20:35:00Z,CalNex_Atlantis,60.0,34.016,-118.709,18.0,0.13649,0.105385,1.037204
+2010-05-30T20:47:00Z,CalNex_Atlantis,60.0,34.016,-118.709,18.0,0.13496,0.105517,1.046528
+2010-05-30T21:52:00Z,CalNex_Atlantis,60.0,33.946,-118.888,18.0,0.097737,0.073802,1.141552
+2010-05-30T22:25:00Z,CalNex_Atlantis,60.0,33.897,-119.001,18.0,0.10509,0.079052,1.225014
+2010-05-30T23:57:00Z,CalNex_Atlantis,60.0,33.943,-119.165,18.0,0.09846,0.074183,1.712796
+2010-05-31T16:47:00Z,CalNex_Atlantis,60.0,34.283,-119.367,18.0,0.236279,0.190635,1.362006
+2010-05-31T17:05:00Z,CalNex_Atlantis,60.0,34.283,-119.367,18.0,0.251812,0.203643,1.2877
+2010-05-31T17:28:00Z,CalNex_Atlantis,60.0,34.283,-119.367,18.0,0.262525,0.213277,1.209615
+2010-05-31T18:09:00Z,CalNex_Atlantis,60.0,34.351,-119.506,18.0,0.299441,0.247509,1.115378
+2010-05-31T19:28:00Z,CalNex_Atlantis,60.0,34.379,-119.778,18.0,0.238252,0.188108,1.029801
+2010-05-31T20:55:00Z,CalNex_Atlantis,60.0,34.379,-119.846,18.0,0.266899,0.218025,1.049817
+2010-06-01T21:51:00Z,CalNex_Atlantis,60.0,36.61,-122.13,18.0,0.127633,0.097774,1.121541
+2010-06-01T21:58:00Z,CalNex_Atlantis,60.0,36.61,-122.13,18.0,0.100832,0.085633,1.133647
+2010-06-01T22:12:00Z,CalNex_Atlantis,60.0,36.629,-122.067,18.0,0.122457,0.105565,1.163703
+2010-06-01T22:37:00Z,CalNex_Atlantis,60.0,36.642,-122.017,18.0,0.107818,0.091045,1.231694
+2010-06-01T23:07:00Z,CalNex_Atlantis,60.0,36.704,-121.926,18.0,0.135347,0.117089,1.340757
+2010-06-02T17:11:00Z,CalNex_Atlantis,60.0,36.91,-122.005,18.0,0.101944,0.083792,1.307706
+2010-06-02T17:16:00Z,CalNex_Atlantis,60.0,36.91,-122.005,18.0,0.107999,0.088008,1.290783
+2010-06-02T19:55:00Z,CalNex_Atlantis,60.0,37.151,-122.51,18.0,0.08573,0.062281,1.035648
+2010-06-03T15:44:00Z,CalNex_Atlantis,60.0,38.03,-122.14,18.0,0.054271,0.037973,1.857764
+2010-06-03T17:18:00Z,CalNex_Atlantis,60.0,38.065,-121.846,18.0,0.068401,0.052655,1.284516
+2010-06-03T17:46:00Z,CalNex_Atlantis,60.0,38.089,-121.743,18.0,0.057188,0.042924,1.199932
+2010-06-03T19:40:00Z,CalNex_Atlantis,60.0,38.304,-121.654,18.0,0.076975,0.057764,1.044007
+2010-06-03T21:01:00Z,CalNex_Atlantis,60.0,38.439,-121.6,18.0,0.066867,0.0529,1.064443
+2010-06-05T17:12:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.039826,0.027213,1.302681
+2010-06-05T17:17:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.042457,0.028652,1.283665
+2010-06-05T18:10:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.051305,0.038622,1.143431
+2010-06-05T18:23:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.049333,0.035914,1.120264
+2010-06-05T18:57:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.048425,0.033914,1.073662
+2010-06-05T19:28:00Z,CalNex_Atlantis,60.0,38.563,-121.552,18.0,0.047458,0.034954,1.049478
+2010-06-05T19:54:00Z,CalNex_Atlantis,60.0,38.511,-121.585,18.0,0.056726,0.039302,1.040254
+2010-06-05T20:25:00Z,CalNex_Atlantis,60.0,38.44,-121.599,18.0,0.054688,0.039353,1.042253
+2010-06-05T21:01:00Z,CalNex_Atlantis,60.0,38.355,-121.639,18.0,0.051756,0.035871,1.062454
+2010-06-05T21:18:00Z,CalNex_Atlantis,60.0,38.308,-121.654,18.0,0.048651,0.034174,1.079426
+2010-06-05T21:42:00Z,CalNex_Atlantis,60.0,38.246,-121.671,18.0,0.048372,0.032704,1.112751
+2010-06-05T22:16:00Z,CalNex_Atlantis,60.0,38.169,-121.676,18.0,0.040883,0.029035,1.17907
+2010-06-05T23:00:00Z,CalNex_Atlantis,60.0,38.075,-121.77,18.0,0.043567,0.02782,1.311837
+2010-06-05T23:27:00Z,CalNex_Atlantis,60.0,38.062,-121.862,18.0,0.042473,0.029295,1.426309
+2010-06-05T23:42:00Z,CalNex_Atlantis,60.0,38.046,-121.925,18.0,0.040941,0.028536,1.501859
+2010-06-06T17:00:00Z,CalNex_Atlantis,60.0,38.031,-122.37,18.0,0.05046,0.031225,1.361342
+2010-06-06T17:14:00Z,CalNex_Atlantis,60.0,38.028,-122.377,18.0,0.04398,0.027905,1.303316
+2010-06-06T17:28:00Z,CalNex_Atlantis,60.0,37.942,-122.43,18.0,0.046769,0.02957,1.258407
+*END_DATA*

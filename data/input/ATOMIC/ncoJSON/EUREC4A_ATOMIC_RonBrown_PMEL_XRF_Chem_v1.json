@@ -1,0 +1,377 @@
+{
+  "attributes": {
+    "_NCProperties": {"type": "char", "data": "version=2,netcdf=4.7.4,hdf5=1.10.6"},
+    "cdm_data_type": {"type": "char", "data": "Trajectory"},
+    "cdm_trajectory_variables": {"type": "char", "data": "trajectory_id"},
+    "comment": {"type": "char", "data": "Concentrations of Al, Si, Ca, Ti, and Fe were determined by thin-film x-ray primary and secondary emission spectrometry [Feely et al., 1991; Feely et al., 1998].  The analysis was conducted by Chester LabNet in Tigard, OR.  Submicron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 1.1 um jet plate (Berner et al., 1979).  Sub 10 micron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 10 um jet plate. This method of sample collection allows for the sharp size cut of the impactor while collecting a thin film of aerosol necessary for the x-ray analysis.  Sampling periods ranged from 12 to 24 hours.  The reported Ca does not include sea salt Ca (as determined from soluble Na\r\n\r\nconcentrations and the ratio of Ca to Na in seawater).  Blank levels were determined by loading an impactor or filter pack with a filter but not drawing any air through it.\r\n\r\n\r\nConcentrations are reported as ug/m3 at STP (25C and 1 atm).\r\n\r\nThe mass concentrations of Al, Si, Ca, Fe, and Ti, the major elements in soil, were combined to calculate the concentration of dust. It was assumed that each element was present in the aerosol in its most common oxide form (Al2O3, SiO2, CaO, K2O, FeO, Fe2O3, TiO2). The measured elemental mass concentration was multiplied by the appropriate molar correction factor as follows:\r\n\r\n[Dust] = 2.2[Al] + 2.49[Si] + 1.63[Ca] + 2.42[Fe]+1.94[Ti]\r\n\r\n[Malm et al., 1994; Perry et al., 1997]. This equation includes a 16% correction factor to account for the presence of oxides of other elements such as K, Na, Mn, Mg, and V that are not included in the linear combination. In addition, the equation omits K from biomass burning by using Fe as a surrogate for soil K and an average K/Fe ratio of 0.6 in soil [Cahill et al., 1986].\r\n\r\nBerner et al., Sci. Total Environ., 13,  245 - 261, 1979.\r\n\r\nCahill, T.A., R.A. Eldred, and P.J. Feeney, Particulate monitoring and data analysis for the National Park Service, 1982 \u2013 1985, University of California, Davis, 1986.\r\n\r\nFeely et al., Geophys. Monogr. Ser., vol. 63, AGU, Washington, DC, 251 - 257, 1991.\r\n\r\nFeely et al., Deep Sea Res., 45, 2637 - 2664, 1998.\r\n\r\nMalm, W.C., J.F. Sisler, D. Huffman, R.A. Eldred, and T.A. Cahill, Spatial and seasonal trends in particle concentration and optical extinction in the United States, J. Geophys. Res., 99, 1347-1370, 1994.\r\n\r\nPerry, K.D., T.A. Cahill, R.A. Eldred, D.D. Dutcher, and T.E. Gill, Long-range transport of North African dust to the eastern United States, J. Geophys. Res., 102, 11225- 11238, 1997."},
+    "contributor_name": {"type": "char", "data": "Coffman, Derek;Johnson, James;Quinn, Patricia;Bates, Tim;Upchurch, Lucia"},
+    "Conventions": {"type": "char", "data": "CF-1.6, COARDS, ACDD-1.3"},
+    "creator_email": {"type": "char", "data": "james.e.johnson@noaa.gov"},
+    "creator_name": {"type": "char", "data": "Johnson, James"},
+    "creator_url": {"type": "char", "data": "https://saga.pmel.noaa.gov"},
+    "date_created": {"type": "char", "data": "2020-11-30T17:21:22Z"},
+    "Easternmost_Easting": {"type": "double", "data": -50.9607},
+    "featureType": {"type": "char", "data": "Trajectory"},
+    "geospatial_lat_max": {"type": "double", "data": 15.748},
+    "geospatial_lat_min": {"type": "double", "data": 13.1416},
+    "geospatial_lat_units": {"type": "char", "data": "degrees_north"},
+    "geospatial_lon_max": {"type": "double", "data": -50.9607},
+    "geospatial_lon_min": {"type": "double", "data": -59.072},
+    "geospatial_lon_units": {"type": "char", "data": "degrees_east"},
+    "history": {"type": "char", "data": "file created by NOAA/PMEL/ACG\n2023-03-22T22:58:21Z (local files)\n2023-03-22T22:58:21Z https://data.pmel.noaa.gov/pmel/erddap/tabledap/EUREC4A_ATOMIC_RonBrown_PMEL_XRF_Chem_v1.ncoJson"},
+    "infoUrl": {"type": "char", "data": "https://saga.pmel.noaa.gov"},
+    "institution": {"type": "char", "data": "NOAA PMEL Atmospheric Chemistry"},
+    "keywords": {"type": "char", "data": "1.1um, 10um, air, atmospheric, atomic, chemistry, collected, concentration, data, earth, environmental, fluorescence, identifier, impactor, laboratory, latitude, longitude, marine, mass, measured, midpoint, noaa, number, ocean, oceans, optical, optical properties, pacific, particles, period, pmel, properties, ray, sample, sample_number, science, sea, seawater, silicate, start, start_time, statistics, stop, stop_time, time, trajectory, trajectory_id, water, x-ray, xrf, XRF_Al_sub1, XRF_Al_sub10, XRF_Ca_sub1, XRF_Ca_sub10, XRF_Fe_sub1, XRF_Fe_sub10, XRF_Si_sub1, XRF_Si_sub10, XRF_Ti_sub1, XRF_Ti_sub10"},
+    "keywords_vocabulary": {"type": "char", "data": "GCMD Science Keywords"},
+    "license": {"type": "char", "data": "The data may be used and redistributed for free but is not intended for legal use, since it may contain inaccuracies. Neither the data Contributor, ERD, NOAA, nor the United States Government, nor any of their employees or contractors, makes any warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, or assumes any legal liability for the accuracy, completeness, or usefulness, of this information."},
+    "Northernmost_Northing": {"type": "double", "data": 15.748},
+    "platform": {"type": "char", "data": "RHBrown"},
+    "product_version": {"type": "char", "data": "1"},
+    "project": {"type": "char", "data": "ATOMIC"},
+    "sourceUrl": {"type": "char", "data": "(local files)"},
+    "Southernmost_Northing": {"type": "double", "data": 13.1416},
+    "standard_name_vocabulary": {"type": "char", "data": "CF Standard Name Table v55"},
+    "subsetVariables": {"type": "char", "data": "trajectory_id"},
+    "summary": {"type": "char", "data": "ATOMIC (Atlantic Tradewind Ocean Atmosphere Mesoscale Interaction Campaign) 2020 Field campaign: Surface meteorological and ship navigation collected from the RV Ronald H. Brown by the National Oceanic and Atmospheric Administration (NOAA) Pacific Marine Environmental Laboratory (PMEL) Atmospheric Chemistry Group in the tropical North Atlantic ocean from 2020-01-09 to 2020-02-13"},
+    "time_coverage_end": {"type": "char", "data": "2020-02-09T17:38:00Z"},
+    "time_coverage_start": {"type": "char", "data": "2020-01-08T04:02:00Z"},
+    "title": {"type": "char", "data": "PMEL Atmospheric Chemistry ATOMIC Impactor collected XRF Chemistry"},
+    "Westernmost_Easting": {"type": "double", "data": -59.072},
+    "Westernnmost_Easting": {"type": "double", "data": -59.072}
+  },
+  "dimensions": {
+    "row": 27,
+    "trajectory_id_strlen": 19
+  },
+  "variables": {
+    "time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Time"},
+        "actual_range": {"type": "double", "data": [1.57845612E9, 1.58126988E9]},
+        "axis": {"type": "char", "data": "T"},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Midpoint Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57845612E9, 1.57851015E9, 1.57854987E9, 1.57861179E9, 1.57869807E9, 1.57878414E9, 1.57887066E9, 1.57895979E9, 1.57904607E9, 1.57913088E9,
+    1.57921965E9, 1.57930317E9, 1.57943208E9, 1.57951569E9, 1.57960224E9, 1.57968522E9, 1.57979607E9, 1.5799362E9, 1.58030091E9, 1.58038071E9,
+    1.58046969E9, 1.5805536E9, 1.5806406E9, 1.58072226E9, 1.58106804E9, 1.58115885E9, 1.58126988E9]
+    },
+    "trajectory_id": {
+      "shape": ["row", "trajectory_id_strlen"],
+      "type": "char",
+      "attributes": {
+        "cf_role": {"type": "char", "data": "trajectory_id"},
+        "ioos_category": {"type": "char", "data": "Identifier"},
+        "long_name": {"type": "char", "data": "trajectory id"}
+      },
+      "data": [["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"],
+    ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"],
+    ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"], ["ATOMIC_2020_RHBrown"]]
+    },
+    "latitude": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Lat"},
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [13.1416, 15.748]},
+        "axis": {"type": "char", "data": "Y"},
+        "colorBarMaximum": {"type": "double", "data": 90.0},
+        "colorBarMinimum": {"type": "double", "data": -90.0},
+        "epic_code": {"type": "char", "data": "500"},
+        "instrument": {"type": "char", "data": "GPS"},
+        "ioos_category": {"type": "char", "data": "Location"},
+        "long_name": {"type": "char", "data": "Midpoint Latitude of Sample Period"},
+        "standard_name": {"type": "char", "data": "latitude"},
+        "units": {"type": "char", "data": "degrees_north"},
+        "valid_max": {"type": "double", "data": 90.0},
+        "valid_min": {"type": "double", "data": -90.0}
+      },
+      "data": [13.3258, 13.7643, 14.1582, 14.7182, 15.1534, 15.4627, 14.7387, 15.748, 15.4851, 14.8082,
+    14.8414, 14.8471, 14.3509, 14.3506, 14.3635, 14.6179, 14.3776, 13.1416, 13.4895, 13.9427,
+    13.901, 13.9002, 13.9006, 13.9004, 13.4674, 14.0509, 13.8527]
+    },
+    "longitude": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_CoordinateAxisType": {"type": "char", "data": "Lon"},
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [-59.072, -50.9607]},
+        "axis": {"type": "char", "data": "X"},
+        "colorBarMaximum": {"type": "double", "data": 180.0},
+        "colorBarMinimum": {"type": "double", "data": -180.0},
+        "epic_code": {"type": "char", "data": "502"},
+        "instrument": {"type": "char", "data": "GPS"},
+        "ioos_category": {"type": "char", "data": "Location"},
+        "long_name": {"type": "char", "data": "Midpoint Longitude of Sample Period"},
+        "standard_name": {"type": "char", "data": "longitude"},
+        "units": {"type": "char", "data": "degrees_east"},
+        "valid_max": {"type": "double", "data": 180.0},
+        "valid_min": {"type": "double", "data": -180.0}
+      },
+      "data": [-57.8479, -55.7203, -53.8081, -51.2408, -51.2592, -51.5369, -50.9842, -51.355, -51.4077, -50.9607,
+    -51.0207, -51.014, -53.0029, -53.0047, -53.0253, -52.8674, -55.0029, -59.072, -57.1829, -54.4926,
+    -54.4994, -54.5005, -54.4999, -54.5003, -56.7338, -54.2625, -54.8625]
+    },
+    "XRF_Al_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 1.47]},
+        "epic_code": {"type": "char", "data": "1968"},
+        "instrument": {"type": "char", "data": "Impactor Dp<1.1um (5)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Al Concentration in Dp < 1.1um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.276, 1.47, 0.013, 0.0, 0.0, 0.0, 0.0, 0.0, 0.002, 0.0,
+    0.0, 0.0, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0, 0.2671, 1.13,
+    0.606, 0.69, 0.78, 0.7401, 0.01, 0.0, 0.258]
+    },
+    "XRF_Al_sub10": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [7.0E-4, 3.87]},
+        "colorBarMaximum": {"type": "double", "data": 4.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "epic_code": {"type": "char", "data": "1970"},
+        "instrument": {"type": "char", "data": "Impactor Dp<10 (8)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Al Concentration in Dp < 10um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [1.15, 3.87, 0.14, 0.05, 0.03, 0.07, 0.05, 0.0246, 7.0E-4, 0.0263,
+    0.0067, 0.051, 0.095, 0.042, 0.025, 0.0288, 0.0195, 0.0067, 1.087, 2.79,
+    1.977, 1.87, 2.15, 2.15, 0.108, 0.04, 1.16]
+    },
+    "XRF_Si_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 2.91]},
+        "epic_code": {"type": "char", "data": "1974"},
+        "instrument": {"type": "char", "data": "Impactor Dp<1.1um (5)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Si Concentration in Dp < 1.1um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.58, 2.88, 0.036, 0.005, 0.0027, 0.0086, 0.0051, 0.0011, 0.0021, 0.0017,
+    0.0, 0.0035, 0.0183, 0.0142, 0.0, 0.002, 0.001, 0.0013, 0.6056, 2.91,
+    1.53, 1.72, 2.04, 1.95, 0.035, 0.003, 0.597]
+    },
+    "XRF_Si_sub10": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [3.0E-4, 7.54]},
+        "colorBarMaximum": {"type": "double", "data": 8.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "epic_code": {"type": "char", "data": "1976"},
+        "instrument": {"type": "char", "data": "Impactor Dp<10 (8)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Si Concentration in Dp < 10um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [2.29907, 7.54, 0.218, 0.061, 0.036, 0.102, 0.049, 0.0085, 0.0136, 0.0204,
+    3.0E-4, 0.0654, 0.188, 0.074, 0.023, 0.0263, 0.0137, 0.0104, 2.42, 7.3,
+    4.995, 4.84, 5.71, 5.74, 0.177, 0.057, 2.626]
+    },
+    "XRF_Ca_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 0.2228]},
+        "epic_code": {"type": "char", "data": "1977"},
+        "instrument": {"type": "char", "data": "Impactor Dp<1.1um (5)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Ca Concentration in Dp < 1.1um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.049, 0.2228, 0.011, 0.0066, 0.0036, 0.005, 0.007, 0.0054, 0.0054, 0.0033,
+    0.0, 0.0029, 0.0035, 0.0031, 0.0056, 0.0, 0.0, 0.0, 0.0325, 0.191,
+    0.097, 0.095, 0.113, 0.0998, 0.0081, 0.0046, 0.035]
+    },
+    "XRF_Ca_sub10": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0393, 1.23]},
+        "colorBarMaximum": {"type": "double", "data": 1.5},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "epic_code": {"type": "char", "data": "1979"},
+        "instrument": {"type": "char", "data": "Impactor Dp<10 (8)"},
+        "ioos_category": {"type": "char", "data": "Unkown"},
+        "long_name": {"type": "char", "data": "Ca Concentration in Dp < 10um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.427, 1.136, 0.274, 0.154, 0.107, 0.174, 0.159, 0.1585, 0.1281, 0.1299,
+    0.0986, 0.1175, 0.124, 0.098, 0.116, 0.0999, 0.085, 0.0393, 0.3581, 1.23,
+    0.9261, 0.783, 0.93, 0.9, 0.275, 0.17, 0.588]
+    },
+    "XRF_Ti_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 0.097]},
+        "epic_code": {"type": "char", "data": "1980"},
+        "instrument": {"type": "char", "data": "Impactor Dp<1.1um (5)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Ti Concentration in Dp < 1.1um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.017, 0.097, 7.0E-4, 1.0E-4, 0.0, 2.0E-4, 8.0E-4, 0.0, 0.0, 0.0,
+    0.0, 0.0, 2.0E-4, 2.0E-4, 0.0, 0.0, 0.0, 0.0, 0.018, 0.079,
+    0.0415, 0.047, 0.054, 9.0E-4, 0.0, 0.019, 0.0187]
+    },
+    "XRF_Ti_sub10": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 0.3001]},
+        "epic_code": {"type": "char", "data": "1982"},
+        "instrument": {"type": "char", "data": "Impactor Dp<10 (8)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Ti Concentration in Dp < 10um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.072, 0.3001, 0.0069, 0.0019, 0.0011, 0.0031, 0.0015, 0.0, 0.0, 0.0,
+    0.0, 0.0023, 0.0055, 0.0023, 0.0098, 9.0E-4, 0.0, 0.0, 0.075, 0.258,
+    0.1689, 0.161, 0.188, 0.1719, 0.0057, 9.6E-4, 0.113]
+    },
+    "XRF_Fe_sub1": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.0, 0.8315]},
+        "epic_code": {"type": "char", "data": "1971"},
+        "instrument": {"type": "char", "data": "Impactor Dp<1.1um (5)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Fe Concentration in Dp < 1.1um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.158, 0.8315, 0.02, 0.005, 8.0E-4, 0.0073, 0.0042, 0.0, 0.0, 0.0049,
+    0.0, 0.0013, 0.004, 0.0045, 0.0029, 8.0E-4, 3.0E-4, 0.0012, 0.1432, 0.64,
+    0.3422, 0.386, 0.446, 0.4133, 0.008, 0.0015, 0.15]
+    },
+    "XRF_Fe_sub10": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [0.002, 2.77]},
+        "colorBarMaximum": {"type": "double", "data": 3.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "epic_code": {"type": "char", "data": "1973"},
+        "instrument": {"type": "char", "data": "Impactor Dp<10 (8)"},
+        "ioos_category": {"type": "char", "data": "Unknown"},
+        "long_name": {"type": "char", "data": "Fe Concentration in Dp < 10um  particles in air, measured by x-ray fluorescence"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "source": {"type": "char", "data": "surface observation"},
+        "uncertainty": {"type": "char", "data": "+/- 10%"},
+        "units": {"type": "char", "data": "micrograms m-3"}
+      },
+      "data": [0.696, 2.77, 0.068, 0.019, 0.01, 0.034, 0.016, 0.002, 0.0044, 0.0267,
+    0.009, 0.0156, 0.049, 0.021, 0.0048, 0.0049, 0.0025, 0.0072, 0.645, 2.2,
+    1.434, 1.41, 1.61, 1.48, 0.045, 0.012, 0.953]
+    },
+    "start_time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "actual_range": {"type": "double", "data": [1.57843452E9, 1.581204E9]},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Start Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57843452E9, 1.57849176E9, 1.578534E9, 1.57857168E9, 1.57865772E9, 1.5787434E9, 1.57883004E9, 1.57892166E9, 1.57900782E9, 1.579092E9,
+    1.5791817E9, 1.5792633E9, 1.5793929E9, 1.57947468E9, 1.5795609E9, 1.57964724E9, 1.5797754E9, 1.57989E9, 1.58026662E9, 1.5803418E9,
+    1.58043138E9, 1.5805125E9, 1.5806001E9, 1.58068782E9, 1.58102334E9, 1.58111838E9, 1.581204E9]
+    },
+    "stop_time": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "actual_range": {"type": "double", "data": [1.57847772E9, 1.58133576E9]},
+        "calendar": {"type": "char", "data": "gregorian"},
+        "colorBarMaximum": {"type": "double", "data": 1.582E9},
+        "colorBarMinimum": {"type": "double", "data": 1.578E9},
+        "ioos_category": {"type": "char", "data": "Time"},
+        "long_name": {"type": "char", "data": "Stop Time of Sample Period"},
+        "standard_name": {"type": "char", "data": "time"},
+        "time_origin": {"type": "char", "data": "01-JAN-1970 00:00:00"},
+        "units": {"type": "char", "data": "seconds since 1970-01-01T00:00:00Z"}
+      },
+      "data": [1.57847772E9, 1.57852854E9, 1.57856574E9, 1.5786519E9, 1.57873842E9, 1.57882488E9, 1.57891128E9, 1.57899792E9, 1.57908432E9, 1.57916976E9,
+    1.5792576E9, 1.57934304E9, 1.57947126E9, 1.5795567E9, 1.57964358E9, 1.5797232E9, 1.57981674E9, 1.5799824E9, 1.5803352E9, 1.58041962E9,
+    1.580508E9, 1.5805947E9, 1.5806811E9, 1.5807567E9, 1.58111274E9, 1.58119932E9, 1.58133576E9]
+    },
+    "sample_number": {
+      "shape": ["row"],
+      "type": "double",
+      "attributes": {
+        "_FillValue": {"type": "double", "data": -1.0E34},
+        "actual_range": {"type": "double", "data": [1.0, 27.0]},
+        "colorBarMaximum": {"type": "double", "data": 100.0},
+        "colorBarMinimum": {"type": "double", "data": 0.0},
+        "ioos_category": {"type": "char", "data": "Statistics"},
+        "long_name": {"type": "char", "data": "Sample Number"},
+        "missing_value": {"type": "double", "data": -999.0},
+        "units": {"type": "char", "data": "1"}
+      },
+      "data": [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0,
+    11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0, 19.0, 20.0,
+    21.0, 22.0, 23.0, 24.0, 25.0, 26.0, 27.0]
+    }
+  }
+}

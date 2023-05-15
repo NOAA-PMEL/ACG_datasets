@@ -1,0 +1,1227 @@
+variable,attribute_name,attribute_value
+GLOBAL,cdm_data_type,Trajectory
+GLOBAL,cdm_trajectory_variables,trajectory_id
+GLOBAL,comment,
+GLOBAL,contributor_name,<SOURCE>
+GLOBAL,creator_name,"Johnson, James"
+GLOBAL,creator_email,james.e.johnson@noaa.gov
+GLOBAL,creator_url,
+GLOBAL,history,
+GLOBAL,platform,<PLATFORM>
+GLOBAL,product_version,<VERSION>
+GLOBAL,project,<PROJECT>
+GLOBAL,sourceUrl,
+GLOBAL,title,PMEL Atmospheric Chemistry <PROJECT> <DATASET> data
+time,_CoordinateAxisType,Time
+time,axis,T
+time,ioos_category,Time
+time,long_name,Datetime UTC
+time,standard_name,time
+time,source_name,datetime_utc
+time,time_origin,01/01/1970 00:00
+time,time_precision,1970-01-01T00:00:00Z
+time,units,yyyy-MM-ddTHH:MM:ssZ
+trajectory_id,cf_role,trajectory_id
+trajectory_id,ioos_category,Identifier
+trajectory_id,long_name,Trajectory ID
+duration,long_name,Duration
+duration,units,second
+latitude,long_name,Latitude
+latitude,units,degrees_north
+latitude,instrument,GPS
+latitude,source,surface observation
+latitude,valid_min,-90
+latitude,valid_max,90
+latitude,uncertainty,
+latitude,standard_name,latitude
+latitude,history,
+latitude,comment,
+latitude,description,
+longitude,long_name,Longitude
+longitude,units,degrees_east
+longitude,instrument,GPS
+longitude,source,surface observation
+longitude,valid_min,-180
+longitude,valid_max,180
+longitude,uncertainty,
+longitude,standard_name,longitude
+longitude,history,
+longitude,comment,
+longitude,description,
+IC_MSA_sub1,long_name,"Particulate MSA Concentration for Dp < 1.1 um, ug m-3"
+IC_MSA_sub1,units,micrograms m-3
+IC_MSA_sub1,instrument,2-stage impactor
+IC_MSA_sub1,source,surface observation
+IC_MSA_sub1,valid_min,0
+IC_MSA_sub1,valid_max,50
+IC_MSA_sub1,uncertainty,
+IC_MSA_sub1,standard_name,
+IC_MSA_sub1,history,
+IC_MSA_sub1,comment,
+IC_MSA_sub1,description,
+IC_MSA_super1,long_name,"Particulate MSA Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_MSA_super1,units,micrograms m-3
+IC_MSA_super1,instrument,2-stage impactor
+IC_MSA_super1,source,surface observation
+IC_MSA_super1,valid_min,0
+IC_MSA_super1,valid_max,50
+IC_MSA_super1,uncertainty,
+IC_MSA_super1,standard_name,
+IC_MSA_super1,history,
+IC_MSA_super1,comment,
+IC_MSA_super1,description,
+IC_Cl_sub1,long_name,"Particulate Cl Concentration for Dp < 1.1 um, ug m-3"
+IC_Cl_sub1,units,micrograms m-3
+IC_Cl_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Cl_sub1,source,surface observation
+IC_Cl_sub1,valid_min,0
+IC_Cl_sub1,valid_max,50
+IC_Cl_sub1,uncertainty,
+IC_Cl_sub1,standard_name,
+IC_Cl_sub1,history,
+IC_Cl_sub1,comment,
+IC_Cl_sub1,description,
+IC_Cl_super1,long_name,"Particulate Cl Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Cl_super1,units,micrograms m-3
+IC_Cl_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Cl_super1,source,surface observation
+IC_Cl_super1,valid_min,0
+IC_Cl_super1,valid_max,50
+IC_Cl_super1,uncertainty,
+IC_Cl_super1,standard_name,
+IC_Cl_super1,history,
+IC_Cl_super1,comment,
+IC_Cl_super1,description,
+IC_Br_sub1,long_name,"Particulate Br Concentration for Dp < 1.1 um, ug m-3"
+IC_Br_sub1,units,micrograms m-3
+IC_Br_sub1,instrument,
+IC_Br_sub1,source,surface observation
+IC_Br_sub1,valid_min,
+IC_Br_sub1,valid_max,
+IC_Br_sub1,uncertainty,
+IC_Br_sub1,standard_name,
+IC_Br_sub1,history,
+IC_Br_sub1,comment,
+IC_Br_sub1,description,
+IC_Br_super1,long_name,"Particulate Br Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Br_super1,units,micrograms m-3
+IC_Br_super1,instrument,
+IC_Br_super1,source,surface observation
+IC_Br_super1,valid_min,
+IC_Br_super1,valid_max,
+IC_Br_super1,uncertainty,
+IC_Br_super1,standard_name,
+IC_Br_super1,history,
+IC_Br_super1,comment,
+IC_Br_super1,description,
+IC_NO3_sub1,long_name,"Particulate NO3 Concentration for Dp < 1.1 um, ug m-3"
+IC_NO3_sub1,units,micrograms m-3
+IC_NO3_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_NO3_sub1,source,surface observation
+IC_NO3_sub1,valid_min,0
+IC_NO3_sub1,valid_max,50
+IC_NO3_sub1,uncertainty,
+IC_NO3_sub1,standard_name,mass_concentration_of_nitrate_dry_aerosol_particles_in_air
+IC_NO3_sub1,history,
+IC_NO3_sub1,comment,
+IC_NO3_sub1,description,
+IC_NO3_super1,long_name,"Particulate NO3 Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_NO3_super1,units,micrograms m-3
+IC_NO3_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_NO3_super1,source,surface observation
+IC_NO3_super1,valid_min,0
+IC_NO3_super1,valid_max,50
+IC_NO3_super1,uncertainty,
+IC_NO3_super1,standard_name,mass_concentration_of_nitrate_dry_aerosol_particles_in_air
+IC_NO3_super1,history,
+IC_NO3_super1,comment,
+IC_NO3_super1,description,
+IC_SO4_sub1,long_name,"Particulate SO4 Concentration for Dp < 1.1 um, ug m-3"
+IC_SO4_sub1,units,micrograms m-3
+IC_SO4_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_SO4_sub1,source,surface observation
+IC_SO4_sub1,valid_min,0
+IC_SO4_sub1,valid_max,50
+IC_SO4_sub1,uncertainty,
+IC_SO4_sub1,standard_name,mass_concentration_of_sulfate_dry_aerosol_particles_in_air
+IC_SO4_sub1,history,
+IC_SO4_sub1,comment,
+IC_SO4_sub1,description,
+IC_SO4_super1,long_name,"Particulate SO4 Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_SO4_super1,units,micrograms m-3
+IC_SO4_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_SO4_super1,source,surface observation
+IC_SO4_super1,valid_min,0
+IC_SO4_super1,valid_max,50
+IC_SO4_super1,uncertainty,
+IC_SO4_super1,standard_name,mass_concentration_of_sulfate_dry_aerosol_particles_in_air
+IC_SO4_super1,history,
+IC_SO4_super1,comment,
+IC_SO4_super1,description,
+IC_Oxalate_sub1,long_name,"Particulate Oxalate Concentration for Dp < 1.1 um, ug m-3"
+IC_Oxalate_sub1,units,micrograms m-3
+IC_Oxalate_sub1,instrument,
+IC_Oxalate_sub1,source,surface observation
+IC_Oxalate_sub1,valid_min,
+IC_Oxalate_sub1,valid_max,
+IC_Oxalate_sub1,uncertainty,
+IC_Oxalate_sub1,standard_name,
+IC_Oxalate_sub1,history,
+IC_Oxalate_sub1,comment,
+IC_Oxalate_sub1,description,
+IC_Oxalate_super1,long_name,"Particulate Oxalate Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Oxalate_super1,units,micrograms m-3
+IC_Oxalate_super1,instrument,
+IC_Oxalate_super1,source,surface observation
+IC_Oxalate_super1,valid_min,
+IC_Oxalate_super1,valid_max,
+IC_Oxalate_super1,uncertainty,
+IC_Oxalate_super1,standard_name,
+IC_Oxalate_super1,history,
+IC_Oxalate_super1,comment,
+IC_Oxalate_super1,description,
+IC_Na_sub1,long_name,"Particulate Na Concentration for Dp < 1.1 um, ug m-3"
+IC_Na_sub1,units,micrograms m-3
+IC_Na_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Na_sub1,source,surface observation
+IC_Na_sub1,valid_min,0
+IC_Na_sub1,valid_max,50
+IC_Na_sub1,uncertainty,
+IC_Na_sub1,standard_name,
+IC_Na_sub1,history,
+IC_Na_sub1,comment,
+IC_Na_sub1,description,
+IC_Na_super1,long_name,"Particulate Na Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Na_super1,units,micrograms m-3
+IC_Na_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Na_super1,source,surface observation
+IC_Na_super1,valid_min,0
+IC_Na_super1,valid_max,50
+IC_Na_super1,uncertainty,
+IC_Na_super1,standard_name,
+IC_Na_super1,history,
+IC_Na_super1,comment,
+IC_Na_super1,description,
+IC_NH4_sub1,long_name,"Particulate NH4 Concentration for Dp < 1.1 um, ug m-3"
+IC_NH4_sub1,units,micrograms m-3
+IC_NH4_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_NH4_sub1,source,surface observation
+IC_NH4_sub1,valid_min,0
+IC_NH4_sub1,valid_max,50
+IC_NH4_sub1,uncertainty,
+IC_NH4_sub1,standard_name,mass_concentration_of_ammonium_dry_aerosol_particles_in_air
+IC_NH4_sub1,history,
+IC_NH4_sub1,comment,
+IC_NH4_sub1,description,
+IC_NH4_super1,long_name,"Particulate NH4 Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_NH4_super1,units,micrograms m-3
+IC_NH4_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_NH4_super1,source,surface observation
+IC_NH4_super1,valid_min,0
+IC_NH4_super1,valid_max,50
+IC_NH4_super1,uncertainty,
+IC_NH4_super1,standard_name,mass_concentration_of_ammonium_dry_aerosol_particles_in_air
+IC_NH4_super1,history,
+IC_NH4_super1,comment,
+IC_NH4_super1,description,
+IC_K_sub1,long_name,"Particulate K Concentration for Dp < 1.1 um, ug m-3"
+IC_K_sub1,units,micrograms m-3
+IC_K_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_K_sub1,source,surface observation
+IC_K_sub1,valid_min,0
+IC_K_sub1,valid_max,50
+IC_K_sub1,uncertainty,
+IC_K_sub1,standard_name,
+IC_K_sub1,history,
+IC_K_sub1,comment,
+IC_K_sub1,description,
+IC_K_super1,long_name,"Particulate K Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_K_super1,units,micrograms m-3
+IC_K_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_K_super1,source,surface observation
+IC_K_super1,valid_min,0
+IC_K_super1,valid_max,50
+IC_K_super1,uncertainty,
+IC_K_super1,standard_name,
+IC_K_super1,history,
+IC_K_super1,comment,
+IC_K_super1,description,
+IC_Mg_sub1,long_name,"Particulate Mg Concentration for Dp < 1.1 um, ug m-3"
+IC_Mg_sub1,units,micrograms m-3
+IC_Mg_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Mg_sub1,source,surface observation
+IC_Mg_sub1,valid_min,0
+IC_Mg_sub1,valid_max,50
+IC_Mg_sub1,uncertainty,
+IC_Mg_sub1,standard_name,
+IC_Mg_sub1,history,
+IC_Mg_sub1,comment,
+IC_Mg_sub1,description,
+IC_Mg_super1,long_name,"Particulate Mg Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Mg_super1,units,micrograms m-3
+IC_Mg_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Mg_super1,source,surface observation
+IC_Mg_super1,valid_min,0
+IC_Mg_super1,valid_max,50
+IC_Mg_super1,uncertainty,
+IC_Mg_super1,standard_name,
+IC_Mg_super1,history,
+IC_Mg_super1,comment,
+IC_Mg_super1,description,
+IC_Ca_sub1,long_name,"Particulate Ca Concentration for Dp < 1.1 um, ug m-3"
+IC_Ca_sub1,units,micrograms m-3
+IC_Ca_sub1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Ca_sub1,source,surface observation
+IC_Ca_sub1,valid_min,0
+IC_Ca_sub1,valid_max,50
+IC_Ca_sub1,uncertainty,
+IC_Ca_sub1,standard_name,
+IC_Ca_sub1,history,
+IC_Ca_sub1,comment,
+IC_Ca_sub1,description,
+IC_Ca_super1,long_name,"Particulate Ca Concentration for 1.1 um < Dp < 10 um, ug m-3"
+IC_Ca_super1,units,micrograms m-3
+IC_Ca_super1,instrument,2-stage impactor -- ion chromatographic analysis
+IC_Ca_super1,source,surface observation
+IC_Ca_super1,valid_min,0
+IC_Ca_super1,valid_max,50
+IC_Ca_super1,uncertainty,
+IC_Ca_super1,standard_name,
+IC_Ca_super1,history,
+IC_Ca_super1,comment,
+IC_Ca_super1,description,
+XRF_Al_sub1,long_name,"Particulate Al Concentration for Dp < 1.1 um, ug m-3"
+XRF_Al_sub1,units,micrograms m-3
+XRF_Al_sub1,instrument,Impactor with 50% aerodynamic cutoff diameter of 1.1 um -- x-ray emission spectrometry
+XRF_Al_sub1,source,surface observation
+XRF_Al_sub1,valid_min,0
+XRF_Al_sub1,valid_max,100
+XRF_Al_sub1,uncertainty,
+XRF_Al_sub1,standard_name,
+XRF_Al_sub1,history,
+XRF_Al_sub1,comment,
+XRF_Al_sub1,description,
+XRF_Al_super1,long_name,"Particulate Al Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Al_super1,units,micrograms m-3
+XRF_Al_super1,instrument,2 impactors
+XRF_Al_super1,source,surface observation
+XRF_Al_super1,valid_min,0
+XRF_Al_super1,valid_max,100
+XRF_Al_super1,uncertainty,
+XRF_Al_super1,standard_name,
+XRF_Al_super1,history,
+XRF_Al_super1,comment,
+XRF_Al_super1,description,
+XRF_Si_sub1,long_name,"Particulate Si Concentration for Dp < 1.1 um, ug m-3"
+XRF_Si_sub1,units,micrograms m-3
+XRF_Si_sub1,instrument,2-stage impactor -- x-ray emission spectrometry
+XRF_Si_sub1,source,surface observation
+XRF_Si_sub1,valid_min,0
+XRF_Si_sub1,valid_max,100
+XRF_Si_sub1,uncertainty,
+XRF_Si_sub1,standard_name,
+XRF_Si_sub1,history,
+XRF_Si_sub1,comment,
+XRF_Si_sub1,description,
+XRF_Si_super1,long_name,"Particulate Si Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Si_super1,units,micrograms m-3
+XRF_Si_super1,instrument,
+XRF_Si_super1,source,surface observation
+XRF_Si_super1,valid_min,
+XRF_Si_super1,valid_max,
+XRF_Si_super1,uncertainty,
+XRF_Si_super1,standard_name,
+XRF_Si_super1,history,
+XRF_Si_super1,comment,
+XRF_Si_super1,description,
+XRF_Ca_sub1,long_name,"Particulate Ca Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ca_sub1,units,micrograms m-3
+XRF_Ca_sub1,instrument,2-stage impactor -- x-ray emission spectrometry
+XRF_Ca_sub1,source,surface observation
+XRF_Ca_sub1,valid_min,0
+XRF_Ca_sub1,valid_max,100
+XRF_Ca_sub1,uncertainty,
+XRF_Ca_sub1,standard_name,
+XRF_Ca_sub1,history,
+XRF_Ca_sub1,comment,
+XRF_Ca_sub1,description,
+XRF_Ca_super1,long_name,"Particulate Ca Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Ca_super1,units,micrograms m-3
+XRF_Ca_super1,instrument,
+XRF_Ca_super1,source,surface observation
+XRF_Ca_super1,valid_min,
+XRF_Ca_super1,valid_max,
+XRF_Ca_super1,uncertainty,
+XRF_Ca_super1,standard_name,
+XRF_Ca_super1,history,
+XRF_Ca_super1,comment,
+XRF_Ca_super1,description,
+XRF_Ti_sub1,long_name,"Particulate Ti Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ti_sub1,units,micrograms m-3
+XRF_Ti_sub1,instrument,2-stage impactor -- x-ray emission spectrometry
+XRF_Ti_sub1,source,surface observation
+XRF_Ti_sub1,valid_min,0
+XRF_Ti_sub1,valid_max,100
+XRF_Ti_sub1,uncertainty,
+XRF_Ti_sub1,standard_name,
+XRF_Ti_sub1,history,
+XRF_Ti_sub1,comment,
+XRF_Ti_sub1,description,
+XRF_Ti_super1,long_name,"Particulate Ti Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Ti_super1,units,micrograms m-3
+XRF_Ti_super1,instrument,
+XRF_Ti_super1,source,surface observation
+XRF_Ti_super1,valid_min,
+XRF_Ti_super1,valid_max,
+XRF_Ti_super1,uncertainty,
+XRF_Ti_super1,standard_name,
+XRF_Ti_super1,history,
+XRF_Ti_super1,comment,
+XRF_Ti_super1,description,
+XRF_Fe_sub1,long_name,"Particulate Fe Concentration for Dp < 1.1 um, ug m-3"
+XRF_Fe_sub1,units,micrograms m-3
+XRF_Fe_sub1,instrument,2-stage impactor -- x-ray emission spectrometry
+XRF_Fe_sub1,source,surface observation
+XRF_Fe_sub1,valid_min,0
+XRF_Fe_sub1,valid_max,100
+XRF_Fe_sub1,uncertainty,
+XRF_Fe_sub1,standard_name,
+XRF_Fe_sub1,history,
+XRF_Fe_sub1,comment,
+XRF_Fe_sub1,description,
+XRF_Fe_super1,long_name,"Particulate Fe Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Fe_super1,units,micrograms m-3
+XRF_Fe_super1,instrument,
+XRF_Fe_super1,source,surface observation
+XRF_Fe_super1,valid_min,
+XRF_Fe_super1,valid_max,
+XRF_Fe_super1,uncertainty,
+XRF_Fe_super1,standard_name,
+XRF_Fe_super1,history,
+XRF_Fe_super1,comment,
+XRF_Fe_super1,description,
+total_aerosol_mass_sub1,long_name,"Particulate Fe Concentration for 1.1 um < Dp < 10 um, ug m-3"
+total_aerosol_mass_sub1,units,micrograms m-3
+total_aerosol_mass_sub1,instrument,2-stage impactor
+total_aerosol_mass_sub1,source,surface observation
+total_aerosol_mass_sub1,valid_min,
+total_aerosol_mass_sub1,valid_max,
+total_aerosol_mass_sub1,uncertainty,
+total_aerosol_mass_sub1,standard_name,
+total_aerosol_mass_sub1,history,
+total_aerosol_mass_sub1,comment,
+total_aerosol_mass_sub1,description,
+total_aerosol_mass_super1,long_name,"Particulate Fe Concentration for 1.1 um < Dp < 10 um, ug m-3"
+total_aerosol_mass_super1,units,micrograms m-3
+total_aerosol_mass_super1,instrument,2-stage impactor
+total_aerosol_mass_super1,source,surface observation
+total_aerosol_mass_super1,valid_min,
+total_aerosol_mass_super1,valid_max,
+total_aerosol_mass_super1,uncertainty,
+total_aerosol_mass_super1,standard_name,
+total_aerosol_mass_super1,history,
+total_aerosol_mass_super1,comment,
+total_aerosol_mass_super1,description,
+nr_so4_sub1,long_name,Particulate non-refractory sulfate concentration for Dp < 1.1 um
+nr_so4_sub1,units,micrograms m-3
+nr_so4_sub1,instrument,Quadrople Aerosol Mass Spectrometer
+nr_so4_sub1,source,surface observation
+nr_so4_sub1,valid_min,
+nr_so4_sub1,valid_max,
+nr_so4_sub1,uncertainty,
+nr_so4_sub1,standard_name,
+nr_so4_sub1,history,
+nr_so4_sub1,comment,
+nr_so4_sub1,description,
+nr_nh4_sub1,long_name,Particulate non-refractory ammonium concentration for Dp < 1.1 um
+nr_nh4_sub1,units,micrograms m-3
+nr_nh4_sub1,instrument,Quadrople Aerosol Mass Spectrometer
+nr_nh4_sub1,source,surface observation
+nr_nh4_sub1,valid_min,
+nr_nh4_sub1,valid_max,
+nr_nh4_sub1,uncertainty,
+nr_nh4_sub1,standard_name,
+nr_nh4_sub1,history,
+nr_nh4_sub1,comment,
+nr_nh4_sub1,description,
+nr_no3_sub1,long_name,Particulate non-refractory nitrate concentration for Dp < 1.1 um
+nr_no3_sub1,units,micrograms m-3
+nr_no3_sub1,instrument,Quadrople Aerosol Mass Spectrometer
+nr_no3_sub1,source,surface observation
+nr_no3_sub1,valid_min,
+nr_no3_sub1,valid_max,
+nr_no3_sub1,uncertainty,
+nr_no3_sub1,standard_name,
+nr_no3_sub1,history,
+nr_no3_sub1,comment,
+nr_no3_sub1,description,
+nr_pom_sub1,long_name,Particulate non-refractory OC concentration for Dp < 1.1 um
+nr_pom_sub1,units,micrograms m-3
+nr_pom_sub1,instrument,Quadrople Aerosol Mass Spectrometer
+nr_pom_sub1,source,surface observation
+nr_pom_sub1,valid_min,
+nr_pom_sub1,valid_max,
+nr_pom_sub1,uncertainty,
+nr_pom_sub1,standard_name,
+nr_pom_sub1,history,
+nr_pom_sub1,comment,
+nr_pom_sub1,description,
+aod_380,long_name,Aerosol Optical Depth at 380nm
+aod_380,units,
+aod_380,instrument,Microtops sunphotometer
+aod_380,source,surface observation
+aod_380,valid_min,0
+aod_380,valid_max,5
+aod_380,uncertainty,
+aod_380,standard_name,atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles
+aod_380,history,
+aod_380,comment,
+aod_380,description,
+aod_440,long_name,Aerosol Optical Depth at 440nm
+aod_440,units,
+aod_440,instrument,Microtops sunphotometer
+aod_440,source,surface observation
+aod_440,valid_min,0
+aod_440,valid_max,5
+aod_440,uncertainty,
+aod_440,standard_name,atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles
+aod_440,history,
+aod_440,comment,
+aod_440,description,
+aod_500,long_name,Aerosol Optical Depth at 500nm
+aod_500,units,
+aod_500,instrument,Microtops sunphotometer
+aod_500,source,surface observation
+aod_500,valid_min,0
+aod_500,valid_max,5
+aod_500,uncertainty,
+aod_500,standard_name,atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles
+aod_500,history,
+aod_500,comment,
+aod_500,description,
+aod_675,long_name,Aerosol Optical Depth at 675nm
+aod_675,units,
+aod_675,instrument,Microtops sunphotometer
+aod_675,source,surface observation
+aod_675,valid_min,0
+aod_675,valid_max,5
+aod_675,uncertainty,
+aod_675,standard_name,atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles
+aod_675,history,
+aod_675,comment,
+aod_675,description,
+aod_870,long_name,Aerosol Optical Depth at 870nm
+aod_870,units,
+aod_870,instrument,Microtops sunphotometer
+aod_870,source,surface observation
+aod_870,valid_min,0
+aod_870,valid_max,5
+aod_870,uncertainty,
+aod_870,standard_name,atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles
+aod_870,history,
+aod_870,comment,
+aod_870,description,
+air_mass,long_name,Integrated Air Density Along Solar Ray Path
+air_mass,units,atm
+air_mass,instrument,Microtops sunphotometer and GPS
+air_mass,source,surface observation
+air_mass,valid_min,0
+air_mass,valid_max,90
+air_mass,uncertainty,
+air_mass,standard_name,
+air_mass,history,
+air_mass,comment,
+air_mass,description,
+ccn_ss,long_name,Supersaturation of CCN measurement
+ccn_ss,units,%
+ccn_ss,instrument,Cloud Condensation Nuclei Counter
+ccn_ss,source,surface observation
+ccn_ss,valid_min,
+ccn_ss,valid_max,
+ccn_ss,uncertainty,
+ccn_ss,standard_name,
+ccn_ss,history,
+ccn_ss,comment,
+ccn_ss,description,
+ccn,long_name,Cloud Condensation Nuclei Concentration at ccn_ss
+ccn,units,cm-3
+ccn,instrument,Cloud Condensation Nuclei Counter
+ccn,source,surface observation
+ccn,valid_min,0
+ccn,valid_max,50000
+ccn,uncertainty,
+ccn,standard_name,
+ccn,history,
+ccn,comment,
+ccn,description,
+ccn_cn_ratio,long_name,Ratio of CCN to CN
+ccn_cn_ratio,units,
+ccn_cn_ratio,instrument,Cloud Condensation Nuclei Counter
+ccn_cn_ratio,source,surface observation
+ccn_cn_ratio,valid_min,0
+ccn_cn_ratio,valid_max,1
+ccn_cn_ratio,uncertainty,
+ccn_cn_ratio,standard_name,
+ccn_cn_ratio,history,
+ccn_cn_ratio,comment,
+ccn_cn_ratio,description,
+cn,long_name,Particle number concentration
+cn,units,cm-3
+cn,instrument,TSI 3010
+cn,source,surface observation
+cn,valid_min,0
+cn,valid_max,500000
+cn,uncertainty,
+cn,standard_name,
+cn,history,
+cn,comment,
+cn,description,
+ufcn,long_name,Ultrafine particle number concentration
+ufcn,units,cm-3
+ufcn,instrument,TSI 3785 and TSI 3025A
+ufcn,source,surface observation
+ufcn,valid_min,0
+ufcn,valid_max,1200000
+ufcn,uncertainty,
+ufcn,standard_name,number_concentration_of_aerosol_particles_at_stp_in_air
+ufcn,history,
+ufcn,comment,
+ufcn,description,
+OC_sub1,long_name,Particulate Organic Carbon Concentration for Dp < 1.1 um
+OC_sub1,units,micrograms m-3
+OC_sub1,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+OC_sub1,source,surface observation
+OC_sub1,valid_min,
+OC_sub1,valid_max,
+OC_sub1,uncertainty,
+OC_sub1,standard_name,
+OC_sub1,history,
+OC_sub1,comment,
+OC_sub1,description,
+OC_super1,long_name,Particulate Organic Carbon Concentration for 1.1 um < Dp < 10 um
+OC_super1,units,micrograms m-3
+OC_super1,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+OC_super1,source,surface observation
+OC_super1,valid_min,
+OC_super1,valid_max,
+OC_super1,uncertainty,
+OC_super1,standard_name,
+OC_super1,history,
+OC_super1,comment,
+OC_super1,description,
+OC_sub10,long_name,Particulate Organic Carbon Concentration for Dp < 10 um
+OC_sub10,units,micrograms m-3
+OC_sub10,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+OC_sub10,source,surface observation
+OC_sub10,valid_min,
+OC_sub10,valid_max,
+OC_sub10,uncertainty,
+OC_sub10,standard_name,
+OC_sub10,history,
+OC_sub10,comment,
+OC_sub10,description,
+EC_sub1,long_name,Particulate Elemental Carbon Concentration for Dp < 1.1 um
+EC_sub1,units,t
+EC_sub1,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+EC_sub1,source,surface observation
+EC_sub1,valid_min,
+EC_sub1,valid_max,
+EC_sub1,uncertainty,
+EC_sub1,standard_name,
+EC_sub1,history,
+EC_sub1,comment,
+EC_sub1,description,
+EC_super1,long_name,Particulate Elemental Carbon Concentration for 1.1 um < Dp < 10 um
+EC_super1,units,micrograms m-3
+EC_super1,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+EC_super1,source,surface observation
+EC_super1,valid_min,
+EC_super1,valid_max,
+EC_super1,uncertainty,
+EC_super1,standard_name,
+EC_super1,history,
+EC_super1,comment,
+EC_super1,description,
+EC_sub10,long_name,Particulate Elemental Carbon Concentration for Dp < 10 um
+EC_sub10,units,micrograms m-3
+EC_sub10,instrument,Filter/Impactor Collection - Sunset Labs thermal/optical analyzer
+EC_sub10,source,surface observation
+EC_sub10,valid_min,
+EC_sub10,valid_max,
+EC_sub10,uncertainty,
+EC_sub10,standard_name,
+EC_sub10,history,
+EC_sub10,comment,
+EC_sub10,description,
+air_temp,long_name,Air Temperature
+air_temp,units,degree_C
+air_temp,instrument,Ship and PMEL sensor
+air_temp,source,surface observation
+air_temp,valid_min,-20
+air_temp,valid_max,50
+air_temp,uncertainty,
+air_temp,standard_name,air_temperature
+air_temp,history,
+air_temp,comment,
+air_temp,description,
+rh,long_name,Relative Humidity
+rh,units,percent
+rh,instrument,Ship and PMEL Sensors
+rh,source,surface observation
+rh,valid_min,0
+rh,valid_max,110
+rh,uncertainty,
+rh,standard_name,relative_humidity
+rh,history,
+rh,comment,
+rh,description,
+baro_pressure,long_name,Barometric Pressure
+baro_pressure,units,hPa
+baro_pressure,instrument,SHIP and PMEL sensors
+baro_pressure,source,surface observation
+baro_pressure,valid_min,950
+baro_pressure,valid_max,1050
+baro_pressure,uncertainty,
+baro_pressure,standard_name,air_pressure
+baro_pressure,history,
+baro_pressure,comment,
+baro_pressure,description,
+insolation,long_name,Shortwave Flux
+insolation,units,W m-2
+insolation,instrument,Epply radiometer 8-48
+insolation,source,surface observation
+insolation,valid_min,-10
+insolation,valid_max,1500
+insolation,uncertainty,
+insolation,standard_name,diffuse_downwelling_shortwave_flux_in_air
+insolation,history,
+insolation,comment,
+insolation,description,
+rain_rate,long_name,Rain Rate
+rain_rate,units,mm hour-1
+rain_rate,instrument,PEML Vaisala WX520 Precipitation Sensor
+rain_rate,source,surface observation
+rain_rate,valid_min,0
+rain_rate,valid_max,200
+rain_rate,uncertainty,
+rain_rate,standard_name,rainfall_rate
+rain_rate,history,
+rain_rate,comment,
+rain_rate,description,
+ship_speed,long_name,Ship Speed over Ground
+ship_speed,units,knots
+ship_speed,instrument,GPS
+ship_speed,source,surface observation
+ship_speed,valid_min,0
+ship_speed,valid_max,20
+ship_speed,uncertainty,
+ship_speed,standard_name,platform_speed_wrt_ground
+ship_speed,history,
+ship_speed,comment,
+ship_speed,description,
+ship_course,long_name,Ship Course over Ground
+ship_course,units,degree
+ship_course,instrument,GPS
+ship_course,source,surface observation
+ship_course,valid_min,0
+ship_course,valid_max,360
+ship_course,uncertainty,
+ship_course,standard_name,platform_course
+ship_course,history,
+ship_course,comment,
+ship_course,description,
+ship_heading,long_name,Ship Heading
+ship_heading,units,degree
+ship_heading,instrument,GPS Compass and Ship Gyrocompass
+ship_heading,source,surface observation
+ship_heading,valid_min,0
+ship_heading,valid_max,360
+ship_heading,uncertainty,
+ship_heading,standard_name,platform_orientation
+ship_heading,history,
+ship_heading,comment,
+ship_heading,description,
+wind_speed,long_name,Wind Speed
+wind_speed,units,m s-1
+wind_speed,instrument,Ship SSSSG IMET wind
+wind_speed,source,surface observation
+wind_speed,valid_min,0
+wind_speed,valid_max,50
+wind_speed,uncertainty,
+wind_speed,standard_name,wind_speed
+wind_speed,history,
+wind_speed,comment,
+wind_speed,description,
+wind_direction,long_name,Wind Direction
+wind_direction,units,degree
+wind_direction,instrument,Ship SSSSG IMET wind
+wind_direction,source,surface observation
+wind_direction,valid_min,0
+wind_direction,valid_max,360
+wind_direction,uncertainty,
+wind_direction,standard_name,wind_from_direction
+wind_direction,history,
+wind_direction,comment,
+wind_direction,description,
+wind_u,long_name,east component of the wind
+wind_u,units,m s-1
+wind_u,instrument,Wind to East:  Ship SSSSG IMET wind
+wind_u,source,surface observation
+wind_u,valid_min,0
+wind_u,valid_max,50
+wind_u,uncertainty,
+wind_u,standard_name,eastward_wind
+wind_u,history,
+wind_u,comment,
+wind_u,description,
+wind_v,long_name,north component of the wind
+wind_v,units,m s-1
+wind_v,instrument,Wind to North:  Ship SSSG IMET wind
+wind_v,source,surface observation
+wind_v,valid_min,0
+wind_v,valid_max,50
+wind_v,uncertainty,
+wind_v,standard_name,northward_wind
+wind_v,history,
+wind_v,comment,
+wind_v,description,
+relative_wind_speed,long_name,Wind Speed Relative to Ship
+relative_wind_speed,units,m s-1
+relative_wind_speed,instrument,PMEL WX520 anamometer and ship WX520 anamometer
+relative_wind_speed,source,surface observation
+relative_wind_speed,valid_min,0
+relative_wind_speed,valid_max,50
+relative_wind_speed,uncertainty,
+relative_wind_speed,standard_name,wind_speed
+relative_wind_speed,history,
+relative_wind_speed,comment,
+relative_wind_speed,description,
+relative_wind_direction,long_name,Wind Direction Relative to Ship
+relative_wind_direction,units,degree
+relative_wind_direction,instrument,PMEL WX520 anamometer and ship WX520 anamometer
+relative_wind_direction,source,surface observation
+relative_wind_direction,valid_min,-180
+relative_wind_direction,valid_max,180
+relative_wind_direction,uncertainty,
+relative_wind_direction,standard_name,wind_from_direction
+relative_wind_direction,history,
+relative_wind_direction,comment,
+relative_wind_direction,description,
+ozone,long_name,Ozone Mixing Ratio
+ozone,units,ppb
+ozone,instrument,TECO 49C
+ozone,source,surface observation
+ozone,valid_min,0
+ozone,valid_max,200
+ozone,uncertainty,
+ozone,standard_name,mole_fraction_of_ozone_in_air
+ozone,history,
+ozone,comment,
+ozone,description,
+so2,long_name,SO2 mixing ratio
+so2,units,ppb
+so2,instrument,TECO 43C
+so2,source,surface observation
+so2,valid_min,
+so2,valid_max,
+so2,uncertainty,
+so2,standard_name,
+so2,history,
+so2,comment,
+so2,description,
+absorb_467_sub1,long_name,"Aerosol light absorption coefficient for Dp < 1.1 um at 467 nm, Mm-1"
+absorb_467_sub1,units,Mm-1
+absorb_467_sub1,instrument,PSAP
+absorb_467_sub1,source,surface observation
+absorb_467_sub1,valid_min,0
+absorb_467_sub1,valid_max,1000
+absorb_467_sub1,uncertainty,
+absorb_467_sub1,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_467_sub1,history,
+absorb_467_sub1,comment,
+absorb_467_sub1,description,
+absorb_530_sub1,long_name,"Aerosol light absorption coefficient for Dp < 1.1 um at 530 nm, Mm-1"
+absorb_530_sub1,units,Mm-1
+absorb_530_sub1,instrument,PSAP
+absorb_530_sub1,source,surface observation
+absorb_530_sub1,valid_min,0
+absorb_530_sub1,valid_max,1000
+absorb_530_sub1,uncertainty,
+absorb_530_sub1,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_530_sub1,history,
+absorb_530_sub1,comment,
+absorb_530_sub1,description,
+absorb_660_sub1,long_name,"Aerosol light absorption coefficient for Dp < 1.1 um at 660 nm, Mm-1"
+absorb_660_sub1,units,Mm-1
+absorb_660_sub1,instrument,PSAP
+absorb_660_sub1,source,surface observation
+absorb_660_sub1,valid_min,0
+absorb_660_sub1,valid_max,1000
+absorb_660_sub1,uncertainty,
+absorb_660_sub1,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_660_sub1,history,
+absorb_660_sub1,comment,
+absorb_660_sub1,description,
+absorb_467_sub10,long_name,"Aerosol light absorption coefficient for Dp < 10 um at 467 nm, Mm-1"
+absorb_467_sub10,units,Mm-1
+absorb_467_sub10,instrument,PSAP
+absorb_467_sub10,source,surface observation
+absorb_467_sub10,valid_min,0
+absorb_467_sub10,valid_max,1000
+absorb_467_sub10,uncertainty,
+absorb_467_sub10,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_467_sub10,history,
+absorb_467_sub10,comment,
+absorb_467_sub10,description,
+absorb_530_sub10,long_name,"Aerosol light absorption coefficient for Dp < 10 um at 530 nm, Mm-1"
+absorb_530_sub10,units,Mm-1
+absorb_530_sub10,instrument,PSAP
+absorb_530_sub10,source,surface observation
+absorb_530_sub10,valid_min,0
+absorb_530_sub10,valid_max,1000
+absorb_530_sub10,uncertainty,
+absorb_530_sub10,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_530_sub10,history,
+absorb_530_sub10,comment,
+absorb_530_sub10,description,
+absorb_660_sub10,long_name,"Aerosol light absorption coefficient for Dp < 10 um at 660 nm, Mm-1"
+absorb_660_sub10,units,Mm-1
+absorb_660_sub10,instrument,PSAP
+absorb_660_sub10,source,surface observation
+absorb_660_sub10,valid_min,0
+absorb_660_sub10,valid_max,1000
+absorb_660_sub10,uncertainty,
+absorb_660_sub10,standard_name,volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles
+absorb_660_sub10,history,
+absorb_660_sub10,comment,
+absorb_660_sub10,description,
+radon,long_name,Radon
+radon,units,mBq m-3
+radon,instrument,Dual flow loop
+radon,source,surface observation
+radon,valid_min,0
+radon,valid_max,30000
+radon,uncertainty,
+radon,standard_name,radioactivity_concentration_of_222rn_in_air
+radon,history,
+radon,comment,
+radon,description,
+absorb_angstrom_467_530_sub1,long_name,"Absorption Angstrom Exponent for Dp < 1.1 um and the 467, 530 wavelength pair"
+absorb_angstrom_467_530_sub1,units,
+absorb_angstrom_467_530_sub1,instrument,PSAP
+absorb_angstrom_467_530_sub1,source,surface observation
+absorb_angstrom_467_530_sub1,valid_min,0
+absorb_angstrom_467_530_sub1,valid_max,20
+absorb_angstrom_467_530_sub1,uncertainty,
+absorb_angstrom_467_530_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+absorb_angstrom_467_530_sub1,history,
+absorb_angstrom_467_530_sub1,comment,
+absorb_angstrom_467_530_sub1,description,
+absorb_angstrom_467_660_sub1,long_name,"Absorption Angstrom Exponent for Dp < 1.1 um and the 467, 660 wavelength pair"
+absorb_angstrom_467_660_sub1,units,
+absorb_angstrom_467_660_sub1,instrument,PSAP
+absorb_angstrom_467_660_sub1,source,surface observation
+absorb_angstrom_467_660_sub1,valid_min,0
+absorb_angstrom_467_660_sub1,valid_max,20
+absorb_angstrom_467_660_sub1,uncertainty,
+absorb_angstrom_467_660_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+absorb_angstrom_467_660_sub1,history,
+absorb_angstrom_467_660_sub1,comment,
+absorb_angstrom_467_660_sub1,description,
+absorb_angstrom_530_660_sub1,long_name,"Absorption Angstrom Exponent for Dp < 1.1 um and the 530, 660 wavelength pair"
+absorb_angstrom_530_660_sub1,units,
+absorb_angstrom_530_660_sub1,instrument,PSAP
+absorb_angstrom_530_660_sub1,source,surface observation
+absorb_angstrom_530_660_sub1,valid_min,0
+absorb_angstrom_530_660_sub1,valid_max,20
+absorb_angstrom_530_660_sub1,uncertainty,
+absorb_angstrom_530_660_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+absorb_angstrom_530_660_sub1,history,
+absorb_angstrom_530_660_sub1,comment,
+absorb_angstrom_530_660_sub1,description,
+scatter_fRH_450_sub1,long_name,Dependence of aerosol light scattering on RH (fRH) for Dp < 1.1 um at 450 nm
+scatter_fRH_450_sub1,units,
+scatter_fRH_450_sub1,instrument,TSI Model 3563 Nephelometers
+scatter_fRH_450_sub1,source,surface observation
+scatter_fRH_450_sub1,valid_min,
+scatter_fRH_450_sub1,valid_max,
+scatter_fRH_450_sub1,uncertainty,
+scatter_fRH_450_sub1,standard_name,
+scatter_fRH_450_sub1,history,
+scatter_fRH_450_sub1,comment,
+scatter_fRH_450_sub1,description,
+scatter_fRH_500_sub1,long_name,Dependence of aerosol light scattering on RH (fRH) for Dp < 1.1 um at 500 nm
+scatter_fRH_500_sub1,units,
+scatter_fRH_500_sub1,instrument,
+scatter_fRH_500_sub1,source,surface observation
+scatter_fRH_500_sub1,valid_min,
+scatter_fRH_500_sub1,valid_max,
+scatter_fRH_500_sub1,uncertainty,
+scatter_fRH_500_sub1,standard_name,
+scatter_fRH_500_sub1,history,
+scatter_fRH_500_sub1,comment,
+scatter_fRH_500_sub1,description,
+scatter_fRH_700_sub1,long_name,Dependence of aerosol light scattering on RH (fRH) for Dp < 1.1 um at 700 nm
+scatter_fRH_700_sub1,units,
+scatter_fRH_700_sub1,instrument,
+scatter_fRH_700_sub1,source,surface observation
+scatter_fRH_700_sub1,valid_min,
+scatter_fRH_700_sub1,valid_max,
+scatter_fRH_700_sub1,uncertainty,
+scatter_fRH_700_sub1,standard_name,
+scatter_fRH_700_sub1,history,
+scatter_fRH_700_sub1,comment,
+scatter_fRH_700_sub1,description,
+scatter_450_sub1,long_name,"Aerosol light scattering coefficient for Dp < 1.1 um at 450 nm, Mm-1"
+scatter_450_sub1,units,Mm-1
+scatter_450_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_450_sub1,source,surface observation
+scatter_450_sub1,valid_min,0
+scatter_450_sub1,valid_max,10000
+scatter_450_sub1,uncertainty,
+scatter_450_sub1,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_450_sub1,history,
+scatter_450_sub1,comment,
+scatter_450_sub1,description,
+scatter_550_sub1,long_name,"Aerosol light scattering coefficient for Dp < 1.1 um at 550 nm, Mm-1"
+scatter_550_sub1,units,Mm-1
+scatter_550_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_550_sub1,source,surface observation
+scatter_550_sub1,valid_min,0
+scatter_550_sub1,valid_max,1000
+scatter_550_sub1,uncertainty,
+scatter_550_sub1,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_550_sub1,history,
+scatter_550_sub1,comment,
+scatter_550_sub1,description,
+scatter_700_sub1,long_name,"Aerosol light scattering coefficient for Dp < 1.1 um at 700 nm, Mm-1"
+scatter_700_sub1,units,Mm-1
+scatter_700_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_700_sub1,source,surface observation
+scatter_700_sub1,valid_min,0
+scatter_700_sub1,valid_max,10000
+scatter_700_sub1,uncertainty,
+scatter_700_sub1,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_700_sub1,history,
+scatter_700_sub1,comment,
+scatter_700_sub1,description,
+backscatter_450_sub1,long_name,"Aerosol light backscattering coefficient for Dp < 1.1 um at 450 nm, Mm-1"
+backscatter_450_sub1,units,Mm-1
+backscatter_450_sub1,instrument,TSI Model 3563 Nephelometer
+backscatter_450_sub1,source,surface observations
+backscatter_450_sub1,valid_min,
+backscatter_450_sub1,valid_max,
+backscatter_450_sub1,uncertainty,
+backscatter_450_sub1,standard_name,
+backscatter_450_sub1,history,
+backscatter_450_sub1,comment,
+backscatter_450_sub1,description,
+backscatter_550_sub1,long_name,"Aerosol light backscattering coefficient for Dp < 1.1 um at 550 nm, Mm-1"
+backscatter_550_sub1,units,Mm-1
+backscatter_550_sub1,instrument,
+backscatter_550_sub1,source,surface observation
+backscatter_550_sub1,valid_min,
+backscatter_550_sub1,valid_max,
+backscatter_550_sub1,uncertainty,
+backscatter_550_sub1,standard_name,
+backscatter_550_sub1,history,
+backscatter_550_sub1,comment,
+backscatter_550_sub1,description,
+backscatter_700_sub1,long_name,"Aerosol light backscattering coefficient for Dp < 1.1 um at 700 nm, Mm-1"
+backscatter_700_sub1,units,Mm-1
+backscatter_700_sub1,instrument,
+backscatter_700_sub1,source,surface observation
+backscatter_700_sub1,valid_min,
+backscatter_700_sub1,valid_max,
+backscatter_700_sub1,uncertainty,
+backscatter_700_sub1,standard_name,
+backscatter_700_sub1,history,
+backscatter_700_sub1,comment,
+backscatter_700_sub1,description,
+scatter_rh_sub10,long_name,"Sample RH of aerosol light scattering coefficient for Dp < 10 um, %"
+scatter_rh_sub10,units,percent
+scatter_rh_sub10,instrument,TSI Model 3563 Nephelometer with viasala sensor
+scatter_rh_sub10,source,surface observation
+scatter_rh_sub10,valid_min,0
+scatter_rh_sub10,valid_max,100
+scatter_rh_sub10,uncertainty,
+scatter_rh_sub10,standard_name,relative_humidity
+scatter_rh_sub10,history,
+scatter_rh_sub10,comment,
+scatter_rh_sub10,description,
+scatter_angstrom_450_550_sub1,long_name,"Scattering Angstrom Exponent for Dp < 1.1 um and the 450, 550 wavelength pair"
+scatter_angstrom_450_550_sub1,units,
+scatter_angstrom_450_550_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_angstrom_450_550_sub1,source,surface observation
+scatter_angstrom_450_550_sub1,valid_min,0
+scatter_angstrom_450_550_sub1,valid_max,20
+scatter_angstrom_450_550_sub1,uncertainty,
+scatter_angstrom_450_550_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+scatter_angstrom_450_550_sub1,history,
+scatter_angstrom_450_550_sub1,comment,
+scatter_angstrom_450_550_sub1,description,
+scatter_angstrom_450_700_sub1,long_name,"Scattering Angstrom Exponent for Dp < 1.1 um and the 450, 700 wavelength pair"
+scatter_angstrom_450_700_sub1,units,
+scatter_angstrom_450_700_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_angstrom_450_700_sub1,source,surface observation
+scatter_angstrom_450_700_sub1,valid_min,0
+scatter_angstrom_450_700_sub1,valid_max,20
+scatter_angstrom_450_700_sub1,uncertainty,
+scatter_angstrom_450_700_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+scatter_angstrom_450_700_sub1,history,
+scatter_angstrom_450_700_sub1,comment,
+scatter_angstrom_450_700_sub1,description,
+scatter_angstrom_550_700_sub1,long_name,"Scattering Angstrom Exponent for Dp < 1.1 um and the 550, 700 wavelength pair"
+scatter_angstrom_550_700_sub1,units,
+scatter_angstrom_550_700_sub1,instrument,TSI Model 3563 Nephelometer
+scatter_angstrom_550_700_sub1,source,surface observation
+scatter_angstrom_550_700_sub1,valid_min,0
+scatter_angstrom_550_700_sub1,valid_max,20
+scatter_angstrom_550_700_sub1,uncertainty,
+scatter_angstrom_550_700_sub1,standard_name,angstrom_exponent_of_ambient_aerosol_in_air
+scatter_angstrom_550_700_sub1,history,
+scatter_angstrom_550_700_sub1,comment,
+scatter_angstrom_550_700_sub1,description,
+ssa_467_sub1,long_name,Single Scattering Albedo for Dp < 1.1 um at 467 nm
+ssa_467_sub1,units,
+ssa_467_sub1,instrument,TSI Model 3563 Nephelometer and Radiance Research PSAP
+ssa_467_sub1,source,surface observation
+ssa_467_sub1,valid_min,0
+ssa_467_sub1,valid_max,1
+ssa_467_sub1,uncertainty,
+ssa_467_sub1,standard_name,single_scattering_albedo_in_air_due_to_ambient_aerosol_particles
+ssa_467_sub1,history,
+ssa_467_sub1,comment,
+ssa_467_sub1,description,
+ssa_530_sub1,long_name,Single Scattering Albedo for Dp < 1.1 um at 530 nm
+ssa_530_sub1,units,
+ssa_530_sub1,instrument,TSI Model 3563 Nephelometer and Radiance Research PSAP
+ssa_530_sub1,source,surface observation
+ssa_530_sub1,valid_min,0
+ssa_530_sub1,valid_max,5
+ssa_530_sub1,uncertainty,
+ssa_530_sub1,standard_name,single_scattering_albedo_in_air_due_to_ambient_aerosol_particles
+ssa_530_sub1,history,
+ssa_530_sub1,comment,
+ssa_530_sub1,description,
+ssa_660_sub1,long_name,Single Scattering Albedo for Dp < 1.1 um at 660 nm
+ssa_660_sub1,units,
+ssa_660_sub1,instrument,TSI Model 3563 Nephelometer and Radiance Research PSAP
+ssa_660_sub1,source,surface observation
+ssa_660_sub1,valid_min,0
+ssa_660_sub1,valid_max,5
+ssa_660_sub1,uncertainty,
+ssa_660_sub1,standard_name,single_scattering_albedo_in_air_due_to_ambient_aerosol_particles
+ssa_660_sub1,history,
+ssa_660_sub1,comment,
+ssa_660_sub1,description,
+dms_seawater,long_name,Seawater DMS concentration
+dms_seawater,units,nmol L-1
+dms_seawater,instrument,Custom purge and trap gas chromatograph
+dms_seawater,source,surface ocean observation
+dms_seawater,valid_min,
+dms_seawater,valid_max,
+dms_seawater,uncertainty,
+dms_seawater,standard_name,
+dms_seawater,history,
+dms_seawater,comment,
+dms_seawater,description,
+sea_surface_temperature,long_name,Sea Surface Temperature
+sea_surface_temperature,units,degree_C
+sea_surface_temperature,instrument,Ship Thermosalinograph
+sea_surface_temperature,source,surface ocean observation
+sea_surface_temperature,valid_min,-10
+sea_surface_temperature,valid_max,45
+sea_surface_temperature,uncertainty,
+sea_surface_temperature,standard_name,sea_surface_temperature
+sea_surface_temperature,history,
+sea_surface_temperature,comment,
+sea_surface_temperature,description,
+salinity,long_name,Sea Surface Salinity
+salinity,units,PSU
+salinity,instrument,Ship Thermosalinograph
+salinity,source,surface ocean observation
+salinity,valid_min,0
+salinity,valid_max,45
+salinity,uncertainty,
+salinity,standard_name,sea_water_practical_salinity
+salinity,history,
+salinity,comment,
+salinity,description,
+chlorophyll,long_name,Sea Surface Chlorophyll
+chlorophyll,units,mg m-3
+chlorophyll,instrument,PMEL Turner fluorometer and Ship fluorometer
+chlorophyll,source,surface ocean observation
+chlorophyll,valid_min,0
+chlorophyll,valid_max,10
+chlorophyll,uncertainty,
+chlorophyll,standard_name,mass_concentration_of_chlorophyll_in_sea_water
+chlorophyll,history,
+chlorophyll,comment,
+chlorophyll,description,
+scatter_450_sub10,long_name,"Aerosol light scattering coefficient for Dp < 10 um at 450 nm, Mm-1"
+scatter_450_sub10,units,Mm-1
+scatter_450_sub10,instrument,TSI Model 3563 Nephelometer
+scatter_450_sub10,source,surface observation
+scatter_450_sub10,valid_min,0
+scatter_450_sub10,valid_max,800
+scatter_450_sub10,uncertainty,
+scatter_450_sub10,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_450_sub10,history,
+scatter_450_sub10,comment,
+scatter_450_sub10,description,
+scatter_550_sub10,long_name,"Aerosol light scattering coefficient for Dp < 10 um at 550 nm, Mm-1"
+scatter_550_sub10,units,Mm-1
+scatter_550_sub10,instrument,TSI Model 3563 Nephelometer
+scatter_550_sub10,source,surface observation
+scatter_550_sub10,valid_min,0
+scatter_550_sub10,valid_max,250
+scatter_550_sub10,uncertainty,
+scatter_550_sub10,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_550_sub10,history,
+scatter_550_sub10,comment,
+scatter_550_sub10,description,
+scatter_700_sub10,long_name,"Aerosol light scattering coefficient for Dp < 10 um at 700 nm, Mm-1"
+scatter_700_sub10,units,Mm-1
+scatter_700_sub10,instrument,TSI Model 3563 Nephelometer
+scatter_700_sub10,source,surface observation
+scatter_700_sub10,valid_min,0
+scatter_700_sub10,valid_max,250
+scatter_700_sub10,uncertainty,
+scatter_700_sub10,standard_name,volume_scattering_coefficient_of_radiative_flux_in_air_due_to_ambient_aerosol_particles
+scatter_700_sub10,history,
+scatter_700_sub10,comment,
+scatter_700_sub10,description,
+backscatter_450_sub10,long_name,"Aerosol light backscattering coefficient for Dp < 10 um at 450 nm, Mm-1"
+backscatter_450_sub10,units,Mm-1
+backscatter_450_sub10,instrument,TSI Model 3563 Nephelometer
+backscatter_450_sub10,source,surface observation
+backscatter_450_sub10,valid_min,
+backscatter_450_sub10,valid_max,
+backscatter_450_sub10,uncertainty,
+backscatter_450_sub10,standard_name,
+backscatter_450_sub10,history,
+backscatter_450_sub10,comment,
+backscatter_450_sub10,description,
+backscatter_550_sub10,long_name,"Aerosol light backscattering coefficient for Dp < 10 um at 550 nm, Mm-1"
+backscatter_550_sub10,units,Mm-1
+backscatter_550_sub10,instrument,
+backscatter_550_sub10,source,surface observation
+backscatter_550_sub10,valid_min,
+backscatter_550_sub10,valid_max,
+backscatter_550_sub10,uncertainty,
+backscatter_550_sub10,standard_name,
+backscatter_550_sub10,history,
+backscatter_550_sub10,comment,
+backscatter_550_sub10,description,
+backscatter_700_sub10,long_name,"Aerosol light backscattering coefficient for Dp < 10 um at 700 nm, Mm-1"
+backscatter_700_sub10,units,Mm-1
+backscatter_700_sub10,instrument,
+backscatter_700_sub10,source,surface observation
+backscatter_700_sub10,valid_min,
+backscatter_700_sub10,valid_max,
+backscatter_700_sub10,uncertainty,
+backscatter_700_sub10,standard_name,
+backscatter_700_sub10,history,
+backscatter_700_sub10,comment,
+backscatter_700_sub10,description,

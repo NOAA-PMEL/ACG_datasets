@@ -1,0 +1,274 @@
+*GLOBAL*,Conventions,"COARDS, CF-1.6, ACDD-1.3, NCCSV-1.0"
+*GLOBAL*,cdm_data_type,"Trajectory"
+*GLOBAL*,cdm_trajectory_variables,"trajectory_id"
+*GLOBAL*,comment,"Aerosol Trace Elements Data\nConcentrations of Al, Si, Ca, Ti, and Fe were determined by thin-film x-ray primary and secondary emission spectrometry [Feely et al., 1991; Feely et al., 1998].  The analysis was conducted by Chester LabNet in Tigard, OR.  Submicron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 1.1 um jet plate (Berner et al., 1979).  Sub 10 micron samples were collected on Teflon filters (1.0 um pore size) mounted in a Berner impactor downstream of a D50,aero 10 um jet plate. This method of sample collection allows for the sharp size cut of the impactor while collecting a thin film of aerosol necessary for the x-ray analysis.  Sampling periods ranged from 12 to 24 hours.  The reported Ca does not include sea salt Ca (as determined from soluble Na concentrations and the ratio of Ca to Na in seawater).  Blank levels were determined by loading an impactor or filter pack with a filter but not drawing any air through it.\n\nConcentrations are reported as ug/m3 at STP (25C and 1 atm).\n\nThe mass concentrations of Al, Si, Ca, Fe, and Ti, the major elements in soil, were combined to calculate the concentration of dust. It was assumed that each element was present in the aerosol in its most common oxide form (Al2O3, SiO2, CaO, K2O, FeO, Fe2O3, TiO2). The measured elemental mass concentration was multiplied by the appropriate molar correction factor as follows:\n\n[Dust] = 2.2[Al] + 2.49[Si] + 1.63[Ca] + 2.42[Fe]+1.94[Ti]\n\n[Malm et al., 1994; Perry et al., 1997]. This equation includes a 16% correction factor to account for the presence of oxides of other elements such as K, Na, Mn, Mg, and V that are not included in the linear combination. In addition, the equation omits K from biomass burning by using Fe as a surrogate for soil K and an average K/Fe ratio of 0.6 in soil [Cahill et al., 1986].\n\nBerner et al., Sci. Total Environ., 13,  245 - 261, 1979.\nCahill, T.A., R.A. Eldred, and P.J. Feeney, Particulate monitoring and data analysis for the National Park Service, 1982 \u2013 1985, University of California, Davis, 1986.\nFeely et al., Geophys. Monogr. Ser., vol. 63, AGU, Washington, DC, 251 - 257, 1991.\nFeely et al., Deep Sea Res., 45, 2637 - 2664, 1998.\nMalm, W.C., J.F. Sisler, D. Huffman, R.A. Eldred, and T.A. Cahill, Spatial and seasonal trends in particle concentration and optical extinction in the United States, J. Geophys. Res., 99, 1347-1370, 1994.\nPerry, K.D., T.A. Cahill, R.A. Eldred, D.D. Dutcher, and T.E. Gill, Long-range transport of North African dust to the eastern United States, J. Geophys. Res., 102, 11225- 11238, 1997.\n\nX-Ray Fluorescence  (analyzed by CHESTER LabNet, Tigard, OR)\nSub-1.1 um and sub-10 um samples were collected on Pall PTFE Membrane Disc Filters (2 um, 47 mm) using 2 and 1 stage impactors. Filters were analyzed for total mass  by gravimetric analysis at 55 +/- 5% RH. After gravimetric analysis, a subset of filters were sent to CHESTER LabNet for XRF analysis. The following elements were reported:, Al, Si, Ca, Fe, and Ti. The XRF uncertainty measurement (as derived from calibration, counting statistics, peak overlap correction, and absorption) represents the statistical range in which a measurement may fall. More detail on XRF Data interpretation can be found here. Blank levels were determined by loading an impactor with substrates but not drawing any air through it. Concentrations are reported as ug/m3 at STP (25C and 1 atm). Values below the detection limit are denoted with a zero and missing data are denoted with a NaN."
+*GLOBAL*,contributor_name,"Johnson, James E./NOAA-PMEL/Phone: 206-526-6355 /Address: 7600 Sand Pt. Wy. NE,Seattle,WA 98115 /email: james.e.johnson@noaa.gov"
+*GLOBAL*,creator_name,"Johnson, James"
+*GLOBAL*,creator_email,"james.e.johnson@noaa.gov"
+*GLOBAL*,creator_url,""
+*GLOBAL*,history,""
+*GLOBAL*,platform,"Atlantis"
+*GLOBAL*,product_version,"0"
+*GLOBAL*,project,"CalNex"
+*GLOBAL*,sourceUrl,""
+*GLOBAL*,title,"PMEL Atmospheric Chemistry CalNex trace_element_chemistry data"
+*GLOBAL*,featureType,"Trajectory"
+*GLOBAL*,target_sample_rh,"60%"
+*GLOBAL*,infoUrl,"https://saga.pmel.noaa.gov/data/index.html"
+time,*DATA_TYPE*,string
+time,_CoordinateAxisType,"Time"
+time,axis,"T"
+time,ioos_category,"Time"
+time,long_name,"Datetime UTC"
+time,standard_name,"time"
+time,source_name,"datetime_utc"
+time,time_origin,"01/01/1970 00:00"
+time,time_precision,"1970-01-01T00:00:00Z"
+time,units,"yyyy-MM-ddTHH:MM:ssZ"
+trajectory_id,*DATA_TYPE*,string
+trajectory_id,cf_role,"trajectory_id"
+trajectory_id,ioos_category,"Identifier"
+trajectory_id,long_name,"Trajectory ID"
+duration,*DATA_TYPE*,int
+duration,long_name,"Duration"
+duration,units,"second"
+latitude,*DATA_TYPE*,double
+latitude,long_name,"Latitude"
+latitude,units,"degrees_north"
+latitude,instrument,"GPS"
+latitude,source,"surface observation"
+latitude,valid_min,-90.0
+latitude,valid_max,90.0
+latitude,uncertainty,""
+latitude,standard_name,"latitude"
+latitude,history,""
+latitude,comment,""
+latitude,description,""
+latitude,_CoordinateAxisType,"Lat"
+latitude,axis,"Y"
+latitude,ioos_category,"Location"
+longitude,*DATA_TYPE*,double
+longitude,long_name,"Longitude"
+longitude,units,"degrees_east"
+longitude,instrument,"GPS"
+longitude,source,"surface observation"
+longitude,valid_min,-180.0
+longitude,valid_max,180.0
+longitude,uncertainty,""
+longitude,standard_name,"longitude"
+longitude,history,""
+longitude,comment,""
+longitude,description,""
+longitude,_CoordinateAxisType,"Lon"
+longitude,axis,"X"
+longitude,ioos_category,"Location"
+altitude,*DATA_TYPE*,double
+altitude,long_name,"height above mean sea level"
+altitude,units,"m"
+altitude,instrument,""
+altitude,source,""
+altitude,valid_min,0
+altitude,valid_max,None
+altitude,uncertainty,""
+altitude,standard_name,"altitude"
+altitude,history,""
+altitude,comment,""
+altitude,description,""
+mid_time,*DATA_TYPE*,string
+mid_time,_CoordinateAxisType,"Time"
+mid_time,axis,"T"
+mid_time,ioos_category,"Time"
+mid_time,long_name,"midpoint Datetime UTC"
+mid_time,standard_name,"time"
+mid_time,source_name,"datetime_utc"
+mid_time,time_origin,"01/01/1970 00:00"
+mid_time,time_precision,"1970-01-01T00:00:00Z"
+mid_time,units,"yyyy-MM-ddTHH:MM:ssZ"
+end_time,*DATA_TYPE*,string
+end_time,_CoordinateAxisType,"Time"
+end_time,axis,"T"
+end_time,ioos_category,"Time"
+end_time,long_name,"endpoint Datetime UTC"
+end_time,standard_name,"time"
+end_time,source_name,"datetime_utc"
+end_time,time_origin,"01/01/1970 00:00"
+end_time,time_precision,"1970-01-01T00:00:00Z"
+end_time,units,"yyyy-MM-ddTHH:MM:ssZ"
+XRF_Al_sub1,*DATA_TYPE*,double
+XRF_Al_sub1,long_name,"Particulate Al Concentration for Dp < 1.1 um, ug m-3"
+XRF_Al_sub1,units,"micrograms m-3"
+XRF_Al_sub1,instrument,"Impactor with 50% aerodynamic cutoff diameter of 1.1 um -- x-ray emission spectrometry"
+XRF_Al_sub1,source,"surface observation"
+XRF_Al_sub1,valid_min,0.0
+XRF_Al_sub1,valid_max,100.0
+XRF_Al_sub1,uncertainty,""
+XRF_Al_sub1,standard_name,""
+XRF_Al_sub1,history,""
+XRF_Al_sub1,comment,""
+XRF_Al_sub1,description,""
+XRF_Al_super1,*DATA_TYPE*,double
+XRF_Al_super1,long_name,"Particulate Al Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Al_super1,units,"micrograms m-3"
+XRF_Al_super1,instrument,"2 impactors"
+XRF_Al_super1,source,"surface observation"
+XRF_Al_super1,valid_min,0.0
+XRF_Al_super1,valid_max,100.0
+XRF_Al_super1,uncertainty,""
+XRF_Al_super1,standard_name,""
+XRF_Al_super1,history,""
+XRF_Al_super1,comment,""
+XRF_Al_super1,description,""
+XRF_Si_sub1,*DATA_TYPE*,double
+XRF_Si_sub1,long_name,"Particulate Si Concentration for Dp < 1.1 um, ug m-3"
+XRF_Si_sub1,units,"micrograms m-3"
+XRF_Si_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Si_sub1,source,"surface observation"
+XRF_Si_sub1,valid_min,0.0
+XRF_Si_sub1,valid_max,100.0
+XRF_Si_sub1,uncertainty,""
+XRF_Si_sub1,standard_name,""
+XRF_Si_sub1,history,""
+XRF_Si_sub1,comment,""
+XRF_Si_sub1,description,""
+XRF_Si_super1,*DATA_TYPE*,double
+XRF_Si_super1,long_name,"Particulate Si Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Si_super1,units,"micrograms m-3"
+XRF_Si_super1,instrument,""
+XRF_Si_super1,source,"surface observation"
+XRF_Si_super1,valid_min,""
+XRF_Si_super1,valid_max,""
+XRF_Si_super1,uncertainty,""
+XRF_Si_super1,standard_name,""
+XRF_Si_super1,history,""
+XRF_Si_super1,comment,""
+XRF_Si_super1,description,""
+XRF_Ca_sub1,*DATA_TYPE*,double
+XRF_Ca_sub1,long_name,"Particulate Ca Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ca_sub1,units,"micrograms m-3"
+XRF_Ca_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Ca_sub1,source,"surface observation"
+XRF_Ca_sub1,valid_min,0.0
+XRF_Ca_sub1,valid_max,100.0
+XRF_Ca_sub1,uncertainty,""
+XRF_Ca_sub1,standard_name,""
+XRF_Ca_sub1,history,""
+XRF_Ca_sub1,comment,""
+XRF_Ca_sub1,description,""
+XRF_Ca_super1,*DATA_TYPE*,double
+XRF_Ca_super1,long_name,"Particulate Ca Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Ca_super1,units,"micrograms m-3"
+XRF_Ca_super1,instrument,""
+XRF_Ca_super1,source,"surface observation"
+XRF_Ca_super1,valid_min,""
+XRF_Ca_super1,valid_max,""
+XRF_Ca_super1,uncertainty,""
+XRF_Ca_super1,standard_name,""
+XRF_Ca_super1,history,""
+XRF_Ca_super1,comment,""
+XRF_Ca_super1,description,""
+XRF_Ti_sub1,*DATA_TYPE*,double
+XRF_Ti_sub1,long_name,"Particulate Ti Concentration for Dp < 1.1 um, ug m-3"
+XRF_Ti_sub1,units,"micrograms m-3"
+XRF_Ti_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Ti_sub1,source,"surface observation"
+XRF_Ti_sub1,valid_min,0.0
+XRF_Ti_sub1,valid_max,100.0
+XRF_Ti_sub1,uncertainty,""
+XRF_Ti_sub1,standard_name,""
+XRF_Ti_sub1,history,""
+XRF_Ti_sub1,comment,""
+XRF_Ti_sub1,description,""
+XRF_Ti_super1,*DATA_TYPE*,double
+XRF_Ti_super1,long_name,"Particulate Ti Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Ti_super1,units,"micrograms m-3"
+XRF_Ti_super1,instrument,""
+XRF_Ti_super1,source,"surface observation"
+XRF_Ti_super1,valid_min,""
+XRF_Ti_super1,valid_max,""
+XRF_Ti_super1,uncertainty,""
+XRF_Ti_super1,standard_name,""
+XRF_Ti_super1,history,""
+XRF_Ti_super1,comment,""
+XRF_Ti_super1,description,""
+XRF_Fe_sub1,*DATA_TYPE*,double
+XRF_Fe_sub1,long_name,"Particulate Fe Concentration for Dp < 1.1 um, ug m-3"
+XRF_Fe_sub1,units,"micrograms m-3"
+XRF_Fe_sub1,instrument,"2-stage impactor -- x-ray emission spectrometry"
+XRF_Fe_sub1,source,"surface observation"
+XRF_Fe_sub1,valid_min,0.0
+XRF_Fe_sub1,valid_max,100.0
+XRF_Fe_sub1,uncertainty,""
+XRF_Fe_sub1,standard_name,""
+XRF_Fe_sub1,history,""
+XRF_Fe_sub1,comment,""
+XRF_Fe_sub1,description,""
+XRF_Fe_super1,*DATA_TYPE*,double
+XRF_Fe_super1,long_name,"Particulate Fe Concentration for 1.1 um < Dp < 10 um, ug m-3"
+XRF_Fe_super1,units,"micrograms m-3"
+XRF_Fe_super1,instrument,""
+XRF_Fe_super1,source,"surface observation"
+XRF_Fe_super1,valid_min,""
+XRF_Fe_super1,valid_max,""
+XRF_Fe_super1,uncertainty,""
+XRF_Fe_super1,standard_name,""
+XRF_Fe_super1,history,""
+XRF_Fe_super1,comment,""
+XRF_Fe_super1,description,""
+*END_METADATA*
+time,trajectory_id,duration,latitude,longitude,altitude,mid_time,end_time,XRF_Al_sub1,XRF_Al_super1,XRF_Si_sub1,XRF_Si_super1,XRF_Ca_sub1,XRF_Ca_super1,XRF_Ti_sub1,XRF_Ti_super1,XRF_Fe_sub1,XRF_Fe_super1
+2010-05-15T03:12:00Z,CalNex_Atlantis,38700.0,33.450108,-118.296065,18.0,2010-05-15T08:34:30Z,2010-05-15T13:57:00Z,0.013,0.123,0.03,0.353,0.012,0.18,0.0,0.013,0.032,0.164
+2010-05-15T15:11:00Z,CalNex_Atlantis,19380.0,33.799368,-118.465542,18.0,2010-05-15T17:52:30Z,2010-05-15T20:34:00Z,0.01,0.157,0.026,0.418,0.011,0.21,0.0,0.019,0.012,0.187
+2010-05-15T22:50:00Z,CalNex_Atlantis,8760.0,33.95309,-118.509038,18.0,2010-05-16T00:03:00Z,2010-05-16T01:16:00Z,0.023,0.024,0.0,0.0,0.274,0.402,0.0,0.0,0.0,0.003
+2010-05-16T03:19:00Z,CalNex_Atlantis,38400.0,33.726942,-118.732062,18.0,2010-05-16T08:39:00Z,2010-05-16T13:59:00Z,0.008,0.105,0.01,0.267,0.008,0.169,0.0,0.009,0.006,0.089
+2010-05-16T15:45:00Z,CalNex_Atlantis,13020.0,33.64899,-118.499623,18.0,2010-05-16T17:33:30Z,2010-05-16T19:22:00Z,0.004,0.077,0.0,0.183,0.004,0.119,0.0,0.005,0.002,0.076
+2010-05-16T20:39:00Z,CalNex_Atlantis,16380.0,33.338203,-118.95963,18.0,2010-05-16T22:55:30Z,2010-05-17T01:12:00Z,0.0,0.068,0.0,0.173,0.0,0.088,0.0,0.008,0.003,0.065
+2010-05-17T02:24:00Z,CalNex_Atlantis,41400.0,33.989095,-118.852032,18.0,2010-05-17T08:09:00Z,2010-05-17T13:54:00Z,0.002,0.031,0.0,0.076,0.005,0.038,0.0,0.003,0.001,0.032
+2010-05-17T14:56:00Z,CalNex_Atlantis,17820.0,34.159187,-119.45813,18.0,2010-05-17T17:24:30Z,2010-05-17T19:53:00Z,0.004,0.054,0.0,0.135,0.006,0.113,0.0,0.0,0.003,0.052
+2010-05-17T20:57:00Z,CalNex_Atlantis,24780.0,34.074423,-119.208433,18.0,2010-05-18T00:23:30Z,2010-05-18T03:50:00Z,0.004,0.07,0.0,0.162,0.005,0.085,0.0,0.005,0.002,0.053
+2010-05-18T04:58:00Z,CalNex_Atlantis,32580.0,34.111972,-119.18996,18.0,2010-05-18T09:29:30Z,2010-05-18T14:01:00Z,0.007,0.048,0.0,0.094,0.009,0.059,0.0,0.005,0.003,0.032
+2010-05-18T17:41:00Z,CalNex_Atlantis,10260.0,33.97653,-119.265475,18.0,2010-05-18T19:06:30Z,2010-05-18T20:32:00Z,0.031,0.142,0.0,0.0,0.46,1.246,0.0,0.0,0.007,0.005
+2010-05-18T21:40:00Z,CalNex_Atlantis,13920.0,33.959053,-118.65633,18.0,2010-05-18T23:36:00Z,2010-05-19T01:32:00Z,0.002,0.064,0.0,0.116,0.011,0.059,0.0,0.005,0.01,0.039
+2010-05-19T02:27:00Z,CalNex_Atlantis,41640.0,33.700418,-118.21765,18.0,2010-05-19T08:14:00Z,2010-05-19T14:01:00Z,0.0,0.014,0.0,0.022,0.004,0.038,0.002,0.0,0.002,0.012
+2010-05-19T15:02:00Z,CalNex_Atlantis,38400.0,33.709888,-118.217772,18.0,2010-05-19T20:22:00Z,2010-05-20T01:42:00Z,0.004,0.026,0.003,0.069,0.004,0.041,0.0,0.003,0.004,0.03
+2010-05-20T02:57:00Z,CalNex_Atlantis,39600.0,33.709745,-118.217473,18.0,2010-05-20T08:27:00Z,2010-05-20T13:57:00Z,0.005,0.057,0.019,0.178,0.009,0.124,0.0,0.004,0.003,0.046
+2010-05-20T15:40:00Z,CalNex_Atlantis,12900.0,33.760612,-118.219222,18.0,2010-05-20T17:27:30Z,2010-05-20T19:15:00Z,0.0,0.154,0.0,0.367,0.025,0.279,0.0,0.016,0.014,0.204
+2010-05-20T20:33:00Z,CalNex_Atlantis,16260.0,33.58146,-117.886783,18.0,2010-05-20T22:48:30Z,2010-05-21T01:04:00Z,0.004,0.101,0.011,0.283,0.016,0.223,0.0,0.01,0.006,0.084
+2010-05-21T02:06:00Z,CalNex_Atlantis,42660.0,33.722092,-118.885863,18.0,2010-05-21T08:01:30Z,2010-05-21T13:57:00Z,0.01,0.194,0.034,0.55,0.035,0.588,0.0,0.017,0.009,0.166
+2010-05-21T15:40:00Z,CalNex_Atlantis,15360.0,34.017892,-118.583425,18.0,2010-05-21T17:48:00Z,2010-05-21T19:56:00Z,0.008,0.171,0.021,0.459,0.025,0.372,0.0,0.02,0.008,0.17
+2010-05-21T20:57:00Z,CalNex_Atlantis,15780.0,33.650012,-118.5668,18.0,2010-05-21T23:08:30Z,2010-05-22T01:20:00Z,0.008,0.136,0.015,0.34,0.02,0.346,0.0,0.015,0.007,0.118
+2010-05-22T19:03:00Z,CalNex_Atlantis,10320.0,33.748043,-118.27601,18.0,2010-05-22T20:29:00Z,2010-05-22T21:55:00Z,0.022,0.215,0.115,0.475,0.073,0.282,0.0,0.0,0.003,0.168
+2010-05-23T02:31:00Z,CalNex_Atlantis,11640.0,33.326008,-118.270413,18.0,2010-05-23T04:08:00Z,2010-05-23T05:45:00Z,0.013,0.048,0.0,0.0,0.18,0.492,0.0,0.0,0.0,0.003
+2010-05-23T20:26:00Z,CalNex_Atlantis,17400.0,33.568442,-118.183468,18.0,2010-05-23T22:51:00Z,2010-05-24T01:16:00Z,0.002,0.026,0.0,0.054,0.012,0.199,0.0,0.004,0.008,0.027
+2010-05-24T02:15:00Z,CalNex_Atlantis,42240.0,33.932655,-118.461647,18.0,2010-05-24T08:07:00Z,2010-05-24T13:59:00Z,0.003,0.087,0.011,0.183,0.015,0.302,0.0,0.007,0.004,0.08
+2010-05-24T14:49:00Z,CalNex_Atlantis,7860.0,33.946078,-118.46507,18.0,2010-05-24T15:54:30Z,2010-05-24T17:00:00Z,0.011,0.092,0.0,0.21,0.033,0.311,0.0,0.017,0.026,0.166
+2010-05-24T21:49:00Z,CalNex_Atlantis,57960.0,33.88194,-118.53822,18.0,2010-05-25T05:52:00Z,2010-05-25T13:55:00Z,0.001,0.023,0.006,0.052,0.008,0.159,0.0,0.002,0.002,0.024
+2010-05-25T19:41:00Z,CalNex_Atlantis,20040.0,33.85578,-118.86141,18.0,2010-05-25T22:28:00Z,2010-05-26T01:15:00Z,0.003,0.058,0.0,0.0,0.137,0.557,0.0,0.0,0.0,0.009
+2010-05-26T02:03:00Z,CalNex_Atlantis,42720.0,33.550065,-118.212652,18.0,2010-05-26T07:59:00Z,2010-05-26T13:55:00Z,0.0,0.024,0.0,0.046,0.004,0.053,0.0,0.004,0.002,0.024
+2010-05-26T17:02:00Z,CalNex_Atlantis,10380.0,33.764228,-118.274783,18.0,2010-05-26T18:28:30Z,2010-05-26T19:55:00Z,0.004,0.136,0.0,0.389,0.02,0.294,0.0,0.019,0.012,0.342
+2010-05-26T21:07:00Z,CalNex_Atlantis,13920.0,33.764232,-118.274752,18.0,2010-05-26T23:03:00Z,2010-05-27T00:59:00Z,0.0,0.143,0.06,0.328,0.049,0.17,0.0,0.012,0.017,0.166
+2010-05-27T02:00:00Z,CalNex_Atlantis,43260.0,33.764283,-118.275403,18.0,2010-05-27T08:00:30Z,2010-05-27T14:01:00Z,0.007,0.13,0.019,0.338,0.011,0.161,0.0,0.013,0.014,0.193
+2010-05-27T20:45:00Z,CalNex_Atlantis,16440.0,33.633952,-118.501138,18.0,2010-05-27T23:02:00Z,2010-05-28T01:19:00Z,0.029,0.108,0.0,0.0,0.335,0.946,0.0,0.004,0.002,0.01
+2010-05-28T02:18:00Z,CalNex_Atlantis,39120.0,33.68664,-118.08664,18.0,2010-05-28T07:44:00Z,2010-05-28T13:10:00Z,0.0,0.052,0.015,0.149,0.004,0.102,0.0,0.004,0.003,0.05
+2010-05-29T00:00:00Z,CalNex_Atlantis,50640.0,33.785722,-118.45371,18.0,2010-05-29T07:02:00Z,2010-05-29T14:04:00Z,0.011,0.196,0.053,0.64,0.015,0.261,0.002,0.015,0.014,0.142
+2010-05-29T15:06:00Z,CalNex_Atlantis,14340.0,33.994044,-118.627366,18.0,2010-05-29T17:05:30Z,2010-05-29T19:05:00Z,0.001,0.171,0.042,0.643,0.013,0.306,0.0,0.028,0.028,0.273
+2010-05-29T20:08:00Z,CalNex_Atlantis,17880.0,33.996332,-118.520485,18.0,2010-05-29T22:37:00Z,2010-05-30T01:06:00Z,0.013,0.145,0.072,0.467,0.016,0.182,0.0,0.015,0.011,0.166
+2010-05-30T01:55:00Z,CalNex_Atlantis,39900.0,33.500213,-118.61948,18.0,2010-05-30T07:27:30Z,2010-05-30T13:00:00Z,0.005,0.117,0.013,0.401,0.006,0.183,0.002,0.011,0.006,0.114
+2010-05-30T14:49:00Z,CalNex_Atlantis,15000.0,33.72669,-118.760187,18.0,2010-05-30T16:54:00Z,2010-05-30T18:59:00Z,0.002,0.143,0.006,0.505,0.009,0.19,0.0,0.013,0.005,0.153
+2010-05-31T00:25:00Z,CalNex_Atlantis,16260.0,33.942673,-119.149767,18.0,2010-05-31T02:40:30Z,2010-05-31T04:56:00Z,0.026,0.088,0.0,0.0,0.317,0.71,0.0,0.0,0.005,0.003
+2010-05-31T05:50:00Z,CalNex_Atlantis,29040.0,34.252203,-119.358233,18.0,2010-05-31T09:52:00Z,2010-05-31T13:54:00Z,0.006,0.073,0.169,0.216,0.012,0.236,0.0,0.006,0.004,0.126
+2010-05-31T14:43:00Z,CalNex_Atlantis,15660.0,34.279573,-119.372307,18.0,2010-05-31T16:53:30Z,2010-05-31T19:04:00Z,-0.003,0.135,0.13,0.375,0.018,0.218,0.0,0.013,0.007,0.133
+2010-05-31T20:08:00Z,CalNex_Atlantis,10440.0,34.379123,-119.845908,18.0,2010-05-31T21:35:00Z,2010-05-31T23:02:00Z,0.004,0.098,0.058,0.37,0.012,0.206,0.0,0.009,0.008,0.111
+2010-06-01T03:20:00Z,CalNex_Atlantis,38340.0,34.728765,-121.070845,18.0,2010-06-01T08:39:30Z,2010-06-01T13:59:00Z,0.0,0.01,0.005,0.029,0.004,0.041,0.0,0.0,0.002,0.011
+2010-06-01T19:54:00Z,CalNex_Atlantis,18180.0,36.643548,-122.012337,18.0,2010-06-01T22:25:30Z,2010-06-02T00:57:00Z,0.0,0.016,0.0,0.011,0.006,0.134,0.0,0.0,0.001,0.034
+2010-06-02T02:00:00Z,CalNex_Atlantis,42720.0,36.892881,-122.004646,18.0,2010-06-02T07:56:00Z,2010-06-02T13:52:00Z,0.001,0.022,0.005,0.051,0.012,0.177,0.0,0.0,0.006,0.032
+2010-06-02T15:00:00Z,CalNex_Atlantis,27120.0,37.002661,-122.318239,18.0,2010-06-02T18:46:00Z,2010-06-02T22:32:00Z,0.0,0.0,0.051,0.0,0.005,0.0,0.0,0.0,0.01,0.001
+2010-06-03T03:15:00Z,CalNex_Atlantis,38460.0,38.034002,-122.154617,18.0,2010-06-03T08:35:30Z,2010-06-03T13:56:00Z,0.001,0.01,0.009,0.03,0.003,0.014,0.0,0.0,0.011,0.054
+2010-06-03T15:00:00Z,CalNex_Atlantis,25320.0,38.182057,-121.664592,18.0,2010-06-03T18:31:00Z,2010-06-03T22:02:00Z,0.0,0.063,0.0,0.49,0.0,0.04,0.0,0.0,0.01,0.08
+2010-06-03T22:57:00Z,CalNex_Atlantis,53520.0,38.562403,-121.551458,18.0,2010-06-04T06:23:00Z,2010-06-04T13:49:00Z,0.005,0.164,0.026,0.496,0.004,0.101,0.0,0.016,0.006,0.169
+2010-06-04T14:56:00Z,CalNex_Atlantis,18120.0,38.562433,-121.551335,18.0,2010-06-04T17:27:00Z,2010-06-04T19:58:00Z,0.002,0.085,0.0,0.302,0.003,0.044,0.0,0.01,0.009,0.118
+2010-06-04T22:41:00Z,CalNex_Atlantis,19140.0,38.220518,-121.672582,18.0,2010-06-05T01:20:30Z,2010-06-05T04:00:00Z,0.005,0.102,0.005,0.315,0.005,0.09,0.0,0.017,0.007,0.124
+2010-06-05T04:53:00Z,CalNex_Atlantis,38640.0,38.562688,-121.551575,18.0,2010-06-05T10:15:00Z,2010-06-05T15:37:00Z,0.0,0.041,0.0,0.125,0.002,0.032,0.0,0.006,0.002,0.056
+2010-06-05T16:24:00Z,CalNex_Atlantis,30360.0,38.406097,-121.614838,18.0,2010-06-05T20:37:00Z,2010-06-06T00:50:00Z,0.006,0.127,0.054,0.363,0.007,0.059,0.002,0.011,0.01,0.15
+2010-06-06T01:52:00Z,CalNex_Atlantis,43500.0,38.051017,-122.11672,18.0,2010-06-06T07:54:30Z,2010-06-06T13:57:00Z,0.0,0.02,0.0,0.054,0.003,0.026,0.0,0.005,0.002,0.045
+2010-06-06T15:03:00Z,CalNex_Atlantis,16080.0,37.979953,-122.426313,18.0,2010-06-06T17:17:00Z,2010-06-06T19:31:00Z,0.0,0.008,0.0,0.0,0.003,0.017,0.0,0.0,0.001,0.031
+*END_DATA*
